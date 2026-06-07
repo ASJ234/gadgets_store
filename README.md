@@ -41,12 +41,22 @@ kinghavenstore/
 ├── location.html
 ├── about.html
 ├── css/
+│   ├── reset.css       # CSS reset
+│   ├── variables.css   # Colors, spacing, fonts
+│   ├── style.css       # Shared layout, header, footer, components
+│   ├── home.css        # Home page only
+│   ├── catalog.css     # Catalog page only
+│   ├── product.css     # Product detail page only
+│   ├── location.css    # Location page only
+│   └── about.css       # About page only
 ├── js/
 ├── data/
 │   ├── products.json
 │   └── store.json
 └── assets/images/
 ```
+
+Each page loads `reset.css`, `variables.css`, and `style.css` (shared), plus its own page CSS file for page-specific styles.
 
 ## Customization
 

@@ -73,6 +73,7 @@ function renderCategoryTiles(categories, container) {
     const tile = document.createElement('a');
     tile.href = 'catalog.html?category=' + encodeURIComponent(category);
     tile.className = 'category-tile';
+
     tile.innerHTML =
       '<span class="category-tile-icon">' + getCategoryIcon(category) + '</span>' +
       '<span class="category-tile-label">' + escapeHtml(getCategoryLabel(category)) + '</span>';

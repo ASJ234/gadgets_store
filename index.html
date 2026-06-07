@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
 <body data-page="home">
   <div class="page-wrapper">
@@ -29,25 +30,68 @@
     </header>
 
     <section class="hero">
-      <div class="container">
-        <h1 class="hero-title">Discover the Latest Gadgets</h1>
-        <p class="hero-text">Browse phones, laptops, tablets, wearables, and accessories at KingHaven Store — your trusted tech destination.</p>
-        <a href="catalog.html" class="btn btn-primary">Shop Catalog</a>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="hero-eyebrow">Your trusted tech destination</p>
+          <h1 class="hero-title">Discover the Latest Gadgets</h1>
+          <p class="hero-text">Browse phones, laptops, tablets, wearables, and accessories — curated for quality and value.</p>
+          <div class="hero-actions">
+            <a href="catalog.html" class="btn btn-primary">Shop Catalog</a>
+            <a href="location.html" class="btn btn-outline">Visit Our Store</a>
+          </div>
+        </div>
+        <div class="hero-highlights" aria-hidden="true">
+          <div class="hero-highlight">
+            <span class="hero-highlight-value">15+</span>
+            <span class="hero-highlight-label">Products</span>
+          </div>
+          <div class="hero-highlight">
+            <span class="hero-highlight-value">5</span>
+            <span class="hero-highlight-label">Categories</span>
+          </div>
+          <div class="hero-highlight">
+            <span class="hero-highlight-value">4.8</span>
+            <span class="hero-highlight-label">Avg. Rating</span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <main>
-      <section class="section">
+    <main class="home-main">
+      <section class="section home-section">
         <div class="container">
-          <h2 class="section-title">Shop by Category</h2>
+          <div class="section-header">
+            <div class="section-header-text">
+              <h2 class="section-title">Shop by Category</h2>
+              <p class="section-desc">Jump straight into the gadgets you care about</p>
+            </div>
+          </div>
           <div id="category-tiles"><p class="loading">Loading categories…</p></div>
         </div>
       </section>
 
-      <section class="section section-alt">
+      <section class="section section-alt home-section">
         <div class="container">
-          <h2 class="section-title">Featured Products</h2>
+          <div class="section-header">
+            <div class="section-header-text">
+              <h2 class="section-title">Featured Products</h2>
+              <p class="section-desc">Hand-picked favorites from our catalog</p>
+            </div>
+            <a href="catalog.html" class="section-link">View all products</a>
+          </div>
           <div id="featured-products"><p class="loading">Loading products…</p></div>
+        </div>
+      </section>
+
+      <section class="section home-section">
+        <div class="container">
+          <div class="cta-banner">
+            <div class="cta-banner-text">
+              <h2 class="cta-banner-title">Visit KingHaven in person</h2>
+              <p class="cta-banner-desc">Try gadgets hands-on and get expert advice from our team.</p>
+            </div>
+            <a href="location.html" class="btn btn-primary">Get Directions</a>
+          </div>
         </div>
       </section>
     </main>

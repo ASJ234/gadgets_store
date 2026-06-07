@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   try {
     const [featured, categories] = await Promise.all([getFeatured(), getCategories()]);
-    renderProductGrid(featured, featuredContainer);
     renderCategoryTiles(categories, categoryContainer);
+    renderProductGrid(featured.slice(0, 4), featuredContainer);
   } catch (err) {
     featuredContainer.innerHTML = '<p class="loading">Unable to load products. Please try again later.</p>';
     console.error(err);
