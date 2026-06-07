@@ -1,0 +1,257 @@
+[
+  {
+    "id": "iphone-16-pro",
+    "name": "iPhone 16 Pro",
+    "category": "phones",
+    "price": 999,
+    "rating": 4.8,
+    "featured": true,
+    "image": "https://placehold.co/600x450/4f46e5/ffffff?text=iPhone+16+Pro",
+    "images": ["https://placehold.co/600x450/4f46e5/ffffff?text=iPhone+16+Pro"],
+    "description": "The latest iPhone with A18 Pro chip, titanium design, and an advanced camera system for stunning photos and videos.",
+    "specs": {
+      "Storage": "256GB",
+      "Display": "6.3 inch Super Retina XDR",
+      "Chip": "A18 Pro",
+      "Camera": "48MP Main + 12MP Ultra Wide"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s25",
+    "name": "Samsung Galaxy S25",
+    "category": "phones",
+    "price": 899,
+    "rating": 4.7,
+    "featured": true,
+    "image": "https://placehold.co/600x450/1e293b/ffffff?text=Galaxy+S25",
+    "images": ["https://placehold.co/600x450/1e293b/ffffff?text=Galaxy+S25"],
+    "description": "Flagship Android phone with vibrant AMOLED display, powerful Snapdragon processor, and all-day battery life.",
+    "specs": {
+      "Storage": "128GB",
+      "Display": "6.2 inch Dynamic AMOLED",
+      "Chip": "Snapdragon 8 Gen 4",
+      "Camera": "50MP Triple Camera"
+    }
+  },
+  {
+    "id": "google-pixel-9",
+    "name": "Google Pixel 9",
+    "category": "phones",
+    "price": 799,
+    "rating": 4.6,
+    "featured": false,
+    "image": "https://placehold.co/600x450/4285f4/ffffff?text=Pixel+9",
+    "images": ["https://placehold.co/600x450/4285f4/ffffff?text=Pixel+9"],
+    "description": "Pure Android experience with Google's best AI features, exceptional computational photography, and 7 years of updates.",
+    "specs": {
+      "Storage": "128GB",
+      "Display": "6.3 inch OLED",
+      "Chip": "Google Tensor G4",
+      "Camera": "50MP Dual Camera"
+    }
+  },
+  {
+    "id": "macbook-air-m4",
+    "name": "MacBook Air M4",
+    "category": "laptops",
+    "price": 1199,
+    "rating": 4.9,
+    "featured": true,
+    "image": "https://placehold.co/600x450/64748b/ffffff?text=MacBook+Air",
+    "images": ["https://placehold.co/600x450/64748b/ffffff?text=MacBook+Air"],
+    "description": "Incredibly thin and light laptop powered by the M4 chip. Perfect for work, creativity, and everyday computing.",
+    "specs": {
+      "Storage": "512GB SSD",
+      "Display": "13.6 inch Liquid Retina",
+      "Chip": "Apple M4",
+      "RAM": "16GB Unified Memory"
+    }
+  },
+  {
+    "id": "dell-xps-15",
+    "name": "Dell XPS 15",
+    "category": "laptops",
+    "price": 1499,
+    "rating": 4.5,
+    "featured": false,
+    "image": "https://placehold.co/600x450/007db8/ffffff?text=Dell+XPS+15",
+    "images": ["https://placehold.co/600x450/007db8/ffffff?text=Dell+XPS+15"],
+    "description": "Premium Windows laptop with stunning InfinityEdge display, powerful Intel Core Ultra processor, and sleek design.",
+    "specs": {
+      "Storage": "1TB SSD",
+      "Display": "15.6 inch 3.5K OLED",
+      "Chip": "Intel Core Ultra 7",
+      "RAM": "32GB DDR5"
+    }
+  },
+  {
+    "id": "lenovo-thinkpad-x1",
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "category": "laptops",
+    "price": 1349,
+    "rating": 4.6,
+    "featured": true,
+    "image": "https://placehold.co/600x450/e2231a/ffffff?text=ThinkPad+X1",
+    "images": ["https://placehold.co/600x450/e2231a/ffffff?text=ThinkPad+X1"],
+    "description": "Business-class ultrabook known for durability, excellent keyboard, and enterprise-grade security features.",
+    "specs": {
+      "Storage": "512GB SSD",
+      "Display": "14 inch 2.8K OLED",
+      "Chip": "Intel Core Ultra 5",
+      "RAM": "16GB LPDDR5"
+    }
+  },
+  {
+    "id": "ipad-pro-m4",
+    "name": "iPad Pro M4",
+    "category": "tablets",
+    "price": 1099,
+    "rating": 4.8,
+    "featured": true,
+    "image": "https://placehold.co/600x450/6366f1/ffffff?text=iPad+Pro",
+    "images": ["https://placehold.co/600x450/6366f1/ffffff?text=iPad+Pro"],
+    "description": "The ultimate iPad with M4 chip, ultra-thin design, and a gorgeous Liquid Retina XDR display.",
+    "specs": {
+      "Storage": "256GB",
+      "Display": "11 inch Liquid Retina XDR",
+      "Chip": "Apple M4",
+      "Connectivity": "Wi-Fi 6E"
+    }
+  },
+  {
+    "id": "samsung-tab-s10",
+    "name": "Samsung Galaxy Tab S10",
+    "category": "tablets",
+    "price": 849,
+    "rating": 4.5,
+    "featured": false,
+    "image": "https://placehold.co/600x450/1428a0/ffffff?text=Galaxy+Tab+S10",
+    "images": ["https://placehold.co/600x450/1428a0/ffffff?text=Galaxy+Tab+S10"],
+    "description": "Premium Android tablet with S Pen included, stunning display, and DeX mode for desktop-like productivity.",
+    "specs": {
+      "Storage": "256GB",
+      "Display": "12.4 inch AMOLED",
+      "Chip": "Snapdragon 8 Gen 3",
+      "S Pen": "Included"
+    }
+  },
+  {
+    "id": "apple-watch-ultra-2",
+    "name": "Apple Watch Ultra 2",
+    "category": "wearables",
+    "price": 799,
+    "rating": 4.7,
+    "featured": true,
+    "image": "https://placehold.co/600x450/f97316/ffffff?text=Watch+Ultra+2",
+    "images": ["https://placehold.co/600x450/f97316/ffffff?text=Watch+Ultra+2"],
+    "description": "The most rugged and capable Apple Watch. Built for adventure with precision GPS and 36-hour battery life.",
+    "specs": {
+      "Display": "49mm Titanium Case",
+      "Battery": "Up to 36 hours",
+      "Water Resistance": "100m",
+      "GPS": "Precision Dual-frequency"
+    }
+  },
+  {
+    "id": "galaxy-watch-7",
+    "name": "Samsung Galaxy Watch 7",
+    "category": "wearables",
+    "price": 349,
+    "rating": 4.4,
+    "featured": false,
+    "image": "https://placehold.co/600x450/0ea5e9/ffffff?text=Galaxy+Watch+7",
+    "images": ["https://placehold.co/600x450/0ea5e9/ffffff?text=Galaxy+Watch+7"],
+    "description": "Smart watch with advanced health tracking, sleep coaching, and seamless Galaxy ecosystem integration.",
+    "specs": {
+      "Display": "44mm AMOLED",
+      "Battery": "Up to 40 hours",
+      "Health": "Heart rate, SpO2, Sleep",
+      "Compatibility": "Android & iOS"
+    }
+  },
+  {
+    "id": "airpods-pro-2",
+    "name": "AirPods Pro 2",
+    "category": "accessories",
+    "price": 249,
+    "rating": 4.8,
+    "featured": true,
+    "image": "https://placehold.co/600x450/a3a3a3/ffffff?text=AirPods+Pro",
+    "images": ["https://placehold.co/600x450/a3a3a3/ffffff?text=AirPods+Pro"],
+    "description": "Premium wireless earbuds with active noise cancellation, adaptive audio, and USB-C charging case.",
+    "specs": {
+      "Driver": "Custom high-excursion",
+      "ANC": "Active Noise Cancellation",
+      "Battery": "Up to 6 hours",
+      "Charging": "USB-C / MagSafe"
+    }
+  },
+  {
+    "id": "sony-wh1000xm5",
+    "name": "Sony WH-1000XM5",
+    "category": "accessories",
+    "price": 349,
+    "rating": 4.9,
+    "featured": false,
+    "image": "https://placehold.co/600x450/171717/ffffff?text=Sony+XM5",
+    "images": ["https://placehold.co/600x450/171717/ffffff?text=Sony+XM5"],
+    "description": "Industry-leading noise canceling headphones with exceptional sound quality and all-day comfort.",
+    "specs": {
+      "Driver": "30mm",
+      "ANC": "Industry-leading",
+      "Battery": "Up to 30 hours",
+      "Weight": "250g"
+    }
+  },
+  {
+    "id": "anker-powerbank",
+    "name": "Anker PowerCore 26800",
+    "category": "accessories",
+    "price": 65,
+    "rating": 4.5,
+    "featured": false,
+    "image": "https://placehold.co/600x450/00b894/ffffff?text=Anker+PowerBank",
+    "images": ["https://placehold.co/600x450/00b894/ffffff?text=Anker+PowerBank"],
+    "description": "High-capacity portable charger with fast charging support for phones, tablets, and other USB devices.",
+    "specs": {
+      "Capacity": "26800mAh",
+      "Ports": "3 USB-A",
+      "Input": "Micro USB / USB-C",
+      "Weight": "490g"
+    }
+  },
+  {
+    "id": "logitech-mx-master-4",
+    "name": "Logitech MX Master 4",
+    "category": "accessories",
+    "price": 99,
+    "rating": 4.7,
+    "featured": false,
+    "image": "https://placehold.co/600x450/7c3aed/ffffff?text=MX+Master+4",
+    "images": ["https://placehold.co/600x450/7c3aed/ffffff?text=MX+Master+4"],
+    "description": "Advanced wireless mouse designed for productivity with ergonomic shape, MagSpeed scroll wheel, and multi-device support.",
+    "specs": {
+      "Sensor": "8000 DPI",
+      "Battery": "Up to 70 days",
+      "Connectivity": "Bluetooth / USB receiver",
+      "Buttons": "7 programmable"
+    }
+  },
+  {
+    "id": "oneplus-13",
+    "name": "OnePlus 13",
+    "category": "phones",
+    "price": 699,
+    "rating": 4.5,
+    "featured": false,
+    "image": "https://placehold.co/600x450/eb0028/ffffff?text=OnePlus+13",
+    "images": ["https://placehold.co/600x450/eb0028/ffffff?text=OnePlus+13"],
+    "description": "Flagship killer with blazing fast charging, smooth 120Hz display, and clean OxygenOS experience.",
+    "specs": {
+      "Storage": "256GB",
+      "Display": "6.7 inch AMOLED 120Hz",
+      "Chip": "Snapdragon 8 Gen 4",
+      "Charging": "100W SuperVOOC"
+    }
+  }
+]
