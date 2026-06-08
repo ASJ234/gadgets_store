@@ -1,53 +1,83 @@
-/* About page — about.html */
-
-.about-content {
-  max-width: 65ch;
+/* --- Featured Promo Banner Container --- */
+.promo-banner-section {
+  position: relative;
+  width: 100%;
+  max-width: var(--max-content-width);
+  margin: 3.5rem auto;
+  min-height: 400px;
+  
+  /* Link your background image here (steps out of css/ folder into assets/) */
+  background: url('../assets/images/king.jpeg') no-repeat center center / cover;
+  
+  border-radius: var(--radius-card);
+  border: 1px solid var(--border-silent);
+  overflow: hidden;
+  
+  /* Flexbox: Centers the dark overlay card both vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
-.about-content p {
-  margin-bottom: 1rem;
-  color: var(--color-text-muted);
-  line-height: 1.7;
+/* --- The Semi-Transparent Text Card Overlay --- */
+.promo-card-overlay {
+  background-color: rgba(22, 27, 34, 0.85); /* Smooth dark tint backdrop */
+  backdrop-filter: blur(4px);                 /* Micro-blur effect */
+  max-width: 800px;
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 8px;                         /* Rounded card borders */
+  border: 1px solid rgba(240, 246, 252, 0.1);
+  text-align: center;                         /* Centers all text inside */
+  box-sizing: border-box;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
-.about-content a {
-  color: var(--color-primary);
+/* Gold/Yellow Heading Alignment */
+.promo-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--accent-yellow);                /* Signature accent color */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
 }
 
-.about-content a:hover {
-  text-decoration: underline;
+/* Middle body description paragraph */
+.promo-text {
+  font-size: 1.05rem;
+  color: var(--text-primary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
-.about-content h2 {
-  font-size: var(--text-xl);
-  margin: 2rem 0 0.75rem;
+/* Italicized bottom helper text call */
+.promo-subtext {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin: 0;
 }
 
-.about-features {
-  display: grid;
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
-@media (min-width: 640px) {
-  .about-features {
-    grid-template-columns: repeat(2, 1fr);
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+  .promo-banner-section {
+    min-height: 450px;
+    padding: 1rem;
   }
-}
-
-.about-feature {
-  padding: 1.25rem;
-  background: var(--color-bg-alt);
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--color-border);
-}
-
-.about-feature h3 {
-  font-size: var(--text-base);
-  margin-bottom: 0.5rem;
-}
-
-.about-feature p {
-  font-size: var(--text-sm);
-  margin-bottom: 0;
+  
+  .promo-card-overlay {
+    padding: 1.5rem;
+  }
+  
+  .promo-title {
+    font-size: 1.3rem;
+  }
+  
+  .promo-text {
+    font-size: 0.95rem;
+  }
 }

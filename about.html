@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/about.css">
 </head>
 <body data-page="about">
   <div class="page-wrapper">
@@ -29,41 +28,77 @@
       </div>
     </header>
 
+    <!-- NEW HERO BANNER: Background image managed via CSS -->
+    <section class="hero-banner">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1 class="hero-title">Upgrade Your Digital Lifestyle</h1>
+        <p class="hero-subtitle">Discover premium smartphones, elite laptops, and must-have tech accessories explicitly curated for your life speed.</p>
+        <a href="catalog.html" class="hero-cta">Explore the Catalog</a>
+      </div>
+    </section>
+
     <main>
       <div class="container">
-        <h1 class="page-title">About KingHaven Store</h1>
-        <p class="page-subtitle">Your trusted destination for the latest technology.</p>
-
         <div class="about-content">
-          <p>
-            Welcome to KingHaven Store, where passion for technology meets exceptional customer service.
-            Since our founding, we've been dedicated to bringing you the latest and greatest gadgets —
-            from flagship smartphones and powerful laptops to smart wearables and must-have accessories.
-          </p>
-          <p>
-            Our team of tech enthusiasts is here to help you find the perfect device for your lifestyle,
-            whether you're a creative professional, a student, or simply someone who loves staying on the
-            cutting edge of innovation.
-          </p>
+          
+          <!-- FLEX LAYOUT SECTION 1: Story + Phone Image -->
+          <div class="flex-row">
+            <div class="flex-text">
+              <h2>Who We Are</h2>
+              <p>
+                Welcome to KingHaven Store, where your passion for cutting-edge innovation meets uncompromised quality. 
+                We don't just sell devices—we deliver the future straight to your hands. From pocket-sized powerhouses like 
+                the latest flagship smartphones to high-performance workstations, we stock only the best.
+              </p>
+              <p>
+                Whether you're looking to elevate your creative hustle, smash your university goals, or stay effortlessly connected, 
+                our premium catalog guarantees unmatched reliability and competitive pricing.
+              </p>
+            </div>
+            <div class="flex-image-container">
+              <img src="assets/images/phones.jpeg" alt="Latest premium smartphones lineup" class="side-image">
+            </div>
+          </div>
 
-          <h2>Why Shop With Us?</h2>
+          <!-- FLEX LAYOUT SECTION 2: Team + Store Image (Reversed order on desktop) -->
+          <div class="flex-row reverse">
+            <div class="flex-image-container">
+              <img src="assets/images/store.jpeg" alt="Inside KingHaven showroom" class="side-image">
+            </div>
+            <div class="flex-text">
+              <h2>Our Showroom Experience</h2>
+              <p>
+                Our team of dedicated tech experts is on standard stand-by to help you engineer your perfect setup. 
+                We believe in an interactive experience—feel the premium build quality, snap crystal-clear test photos, 
+                and test-drive the processing power of our hardware before making your choice.
+              </p>
+              <p>
+                Stop settling for generic descriptions online. Walk into an ecosystem designed to optimize how you live, 
+                work, and play.
+              </p>
+            </div>
+          </div>
 
+          <h2 class="section-divider-title">Why Shop With Us?</h2>
+
+          <!-- Grid Configuration for features -->
           <div class="about-features">
             <div class="about-feature">
               <h3>Curated Selection</h3>
-              <p>We hand-pick every product in our catalog to ensure quality and value.</p>
+              <p>We hand-pick every flagship smartphone and accessory to guarantee top-tier value and processing power.</p>
             </div>
             <div class="about-feature">
               <h3>Expert Advice</h3>
-              <p>Our knowledgeable staff can help you compare options and find the right fit.</p>
+              <p>Skip the guesswork. Speak with tech professionals ready to map devices directly to your operational workflow.</p>
             </div>
             <div class="about-feature">
               <h3>Visit In Store</h3>
-              <p>Try before you buy at our physical location. <a href="location.html">Get directions</a>.</p>
+              <p>Experience live demonstrations before finalizing your upgrade. <a href="location.html">Get direct route mapping</a>.</p>
             </div>
             <div class="about-feature">
-              <h3>Latest Releases</h3>
-              <p>We stay up to date with the newest gadgets so you don't have to.</p>
+              <h3>Next-Gen Releases</h3>
+              <p>Get exclusive early access to major hardware ecosystem drops and trending premium wearables.</p>
             </div>
           </div>
         </div>
