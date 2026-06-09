@@ -150,12 +150,174 @@
     "rating": 4.9,
     "featured": true,
     "image": "assets/images/Samsung s26Ultra.jpeg",
-    "images": ["assets/images/Samsung s26Ultra.jpeg"],
+    "images": ["assets/images/Samsung s26Ultra.jpeg", "assets/images/Samsung s series.jpeg"],
     "description": "Samsung's ultimate flagship with S Pen support, stunning display, and pro-grade cameras. Factory sealed in box.",
     "specs": {
       "Storage": "256GB",
       "Display": "6.8\" Dynamic AMOLED",
       "S Pen": "Included",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s25",
+    "name": "Samsung Galaxy S25",
+    "brand": "samsung",
+    "category": "phones",
+    "price": 999,
+    "rating": 4.8,
+    "featured": true,
+    "image": "assets/images/Samsung s25.jpeg",
+    "images": ["assets/images/Samsung s25.jpeg"],
+    "description": "Latest Galaxy S25 with vibrant AMOLED display, fast charging, and Samsung AI features.",
+    "specs": {
+      "Storage": "256GB",
+      "Display": "6.2\" Dynamic AMOLED",
+      "Chip": "Snapdragon 8 Gen 4",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s24-ultra",
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "samsung",
+    "category": "phones",
+    "price": 899,
+    "rating": 4.8,
+    "featured": true,
+    "image": "assets/images/Samsung S24 Ultra.webp",
+    "images": ["assets/images/Samsung S24 Ultra.webp"],
+    "description": "Premium Galaxy Ultra with S Pen, 200MP camera, and titanium frame.",
+    "specs": {
+      "Storage": "256GB",
+      "Display": "6.8\" Dynamic AMOLED",
+      "S Pen": "Included",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s22-ultra",
+    "name": "Samsung Galaxy S22 Ultra",
+    "brand": "samsung",
+    "category": "phones",
+    "price": 649,
+    "rating": 4.6,
+    "featured": false,
+    "image": "assets/images/samsung 22 ultra.jpeg",
+    "images": ["assets/images/samsung 22 ultra.jpeg"],
+    "description": "Powerful S22 Ultra with built-in S Pen, great cameras, and large AMOLED display.",
+    "specs": {
+      "Storage": "256GB",
+      "Display": "6.8\" Dynamic AMOLED",
+      "S Pen": "Included",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s21-plus",
+    "name": "Samsung Galaxy S21+",
+    "brand": "samsung",
+    "category": "phones",
+    "price": 579,
+    "rating": 4.5,
+    "featured": false,
+    "image": "assets/images/Samsung 21+.webp",
+    "images": ["assets/images/Samsung 21+.webp"],
+    "description": "Large-screen Galaxy S21+ with excellent display and reliable everyday performance.",
+    "specs": {
+      "Storage": "128GB",
+      "Display": "6.7\" Dynamic AMOLED",
+      "Chip": "Snapdragon 888",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s21",
+    "name": "Samsung Galaxy S21",
+    "brand": "samsung",
+    "category": "phones",
+    "price": 549,
+    "rating": 4.5,
+    "featured": false,
+    "image": "assets/images/Samsung s21.webp",
+    "images": ["assets/images/Samsung s21.webp"],
+    "description": "Compact Galaxy S21 flagship with sharp display and solid camera performance.",
+    "specs": {
+      "Storage": "128GB",
+      "Display": "6.2\" Dynamic AMOLED",
+      "Chip": "Snapdragon 888",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s20-ultra",
+    "name": "Samsung Galaxy S20 Ultra",
+    "brand": "samsung",
+    "category": "phones",
+    "price": 499,
+    "rating": 4.4,
+    "featured": false,
+    "image": "assets/images/Samsung 20 Ultra.webp",
+    "images": ["assets/images/Samsung 20 Ultra.webp"],
+    "description": "Classic S20 Ultra with 100x Space Zoom and a large 6.9-inch display.",
+    "specs": {
+      "Storage": "128GB",
+      "Display": "6.9\" Dynamic AMOLED",
+      "Camera": "108MP main",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s20",
+    "name": "Samsung Galaxy S20",
+    "brand": "samsung",
+    "category": "phones",
+    "price": 449,
+    "rating": 4.4,
+    "featured": false,
+    "image": "assets/images/Samsung s20.webp",
+    "images": ["assets/images/Samsung s20.webp"],
+    "description": "Reliable Galaxy S20 with 5G, great screen, and dependable performance.",
+    "specs": {
+      "Storage": "128GB",
+      "Display": "6.2\" Dynamic AMOLED",
+      "Chip": "Snapdragon 865",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "samsung-galaxy-a53",
+    "name": "Samsung Galaxy A53",
+    "brand": "samsung",
+    "category": "phones",
+    "price": 349,
+    "rating": 4.5,
+    "featured": false,
+    "image": "assets/images/samsung A53.webp",
+    "images": ["assets/images/samsung A53.webp"],
+    "description": "Great-value Galaxy A53 with 5G, long battery life, and a smooth 120Hz display.",
+    "specs": {
+      "Storage": "128GB",
+      "Display": "6.5\" Super AMOLED",
+      "Battery": "5000mAh",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "samsung-galaxy-a16",
+    "name": "Samsung Galaxy A16",
+    "brand": "samsung",
+    "category": "phones",
+    "price": 249,
+    "rating": 4.3,
+    "featured": false,
+    "image": "assets/images/Samsung A16.webp",
+    "images": ["assets/images/Samsung A16.webp"],
+    "description": "Affordable Galaxy A16 — perfect entry-level Samsung with essential features.",
+    "specs": {
+      "Storage": "128GB",
+      "Display": "6.7\" Super AMOLED",
+      "Battery": "5000mAh",
       "Condition": "Brand new, sealed"
     }
   },

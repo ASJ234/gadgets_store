@@ -49,7 +49,7 @@ const CATEGORY_DESCRIPTIONS = {
 };
 
 const CATEGORY_IMAGES = {
-  phones: 'assets/images/iphone 16 pro.1.jpeg',
+  phones: 'assets/images/Samsung s series.jpeg',
   accessories: 'assets/images/chargers and lens protection.jpeg',
 };
 
