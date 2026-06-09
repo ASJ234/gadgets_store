@@ -203,23 +203,36 @@
             return;
           }
 
-          const name = document.getElementById("contact-name").value.trim();
-          const email = document.getElementById("contact-email").value.trim();
-          const phone = document.getElementById("contact-phone").value.trim();
-          const subject = document.getElementById("contact-subject").value;
-          const message = document.getElementById("contact-message").value.trim();
+          const submitBtn = document.getElementById("contact-submit");
+          const origHtml = submitBtn.innerHTML;
 
-          // Build email body
-          const body = [
-            `Name: ${name}`,
-            `Email: ${email}`,
-            phone ? `Phone: ${phone}` : '',
-            '',
-            message
-          ].filter(Boolean).join('\n');
+          // Show loader
+          submitBtn.disabled = true;
+          submitBtn.innerHTML = `<span class="btn-spinner"></span> Opening Mail Client...`;
 
-          const mailtoUrl = `mailto:pleasurek742@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-          window.open(mailtoUrl, '_self');
+          setTimeout(() => {
+            const name = document.getElementById("contact-name").value.trim();
+            const email = document.getElementById("contact-email").value.trim();
+            const phone = document.getElementById("contact-phone").value.trim();
+            const subject = document.getElementById("contact-subject").value;
+            const message = document.getElementById("contact-message").value.trim();
+
+            // Build email body
+            const body = [
+              `Name: ${name}`,
+              `Email: ${email}`,
+              phone ? `Phone: ${phone}` : '',
+              '',
+              message
+            ].filter(Boolean).join('\n');
+
+            const mailtoUrl = `mailto:pleasurek742@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            window.open(mailtoUrl, '_self');
+
+            // Restore button
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = origHtml;
+          }, 1000);
         });
 
         // WhatsApp button — pre-fill message from form if filled, otherwise generic
@@ -231,13 +244,25 @@
 
             if (name || message) {
               e.preventDefault();
-              const waText = [
-                `Hi King's Haven Store!`,
-                name ? `I'm ${name}.` : '',
-                message || ''
-              ].filter(Boolean).join(' ');
+              const origHtml = waBtn.innerHTML;
 
-              window.open(`https://wa.me/256784884042?text=${encodeURIComponent(waText)}`, '_blank');
+              // Show loader
+              waBtn.style.pointerEvents = "none";
+              waBtn.innerHTML = `<span class="btn-spinner"></span> Opening WhatsApp...`;
+
+              setTimeout(() => {
+                const waText = [
+                  `Hi King's Haven Store!`,
+                  name ? `I'm ${name}.` : '',
+                  message || ''
+                ].filter(Boolean).join(' ');
+
+                window.open(`https://wa.me/256784884042?text=${encodeURIComponent(waText)}`, '_blank');
+
+                // Restore button
+                waBtn.style.pointerEvents = "auto";
+                waBtn.innerHTML = origHtml;
+              }, 1000);
             }
             // If nothing filled, the default href opens WhatsApp with no message
           });
