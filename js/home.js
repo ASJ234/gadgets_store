@@ -18,7 +18,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     if (samsungContainer) {
-      const samsung = products.filter((p) => p.brand === 'samsung').slice(0, 4);
+      const samsung = products.filter((p) => p.brand === 'samsung');
+      samsungContainer.classList.toggle('samsung-single', samsung.length === 1);
       renderProductGrid(samsung, samsungContainer);
     }
 

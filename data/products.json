@@ -1,15 +1,49 @@
 [
   {
+    "id": "iphone-17-pro-max",
+    "name": "iPhone 17 Pro Max",
+    "brand": "apple",
+    "category": "phones",
+    "price": 1199,
+    "rating": 4.9,
+    "featured": true,
+    "image": "assets/images/iphone 17 pro maxs.jpeg",
+    "images": ["assets/images/iphone 17 pro maxs.jpeg"],
+    "description": "The ultimate iPhone with the largest Pro display, advanced camera system, and top-tier performance.",
+    "specs": {
+      "Storage": "256GB",
+      "Display": "6.9\" Super Retina XDR",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "iphone-17-pro",
+    "name": "iPhone 17 Pro",
+    "brand": "apple",
+    "category": "phones",
+    "price": 1099,
+    "rating": 4.9,
+    "featured": true,
+    "image": "assets/images/iphone 17 pro .1.jpeg",
+    "images": ["assets/images/iphone 17 pro .1.jpeg"],
+    "description": "Pro-level iPhone with titanium design, advanced cameras, and the latest Apple chip.",
+    "specs": {
+      "Storage": "256GB",
+      "Display": "6.3\" Super Retina XDR",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
     "id": "iphone-16-pro",
     "name": "iPhone 16 Pro",
     "brand": "apple",
     "category": "phones",
     "price": 999,
-    "rating": 4.9,
+    "rating": 4.8,
     "featured": true,
-    "image": "assets/images/latest iphones available.jpeg",
-    "images": ["assets/images/latest iphones available.jpeg"],
-    "description": "Latest iPhone Pro with advanced camera system, titanium design, and powerful performance. Available in multiple storage options.",
+    "image": "assets/images/iphone 16 pro.1.jpeg",
+    "images": ["assets/images/iphone 16 pro.1.jpeg"],
+    "description": "Powerful iPhone Pro with advanced camera system and all-day battery life.",
     "specs": {
       "Storage": "256GB",
       "Display": "6.3\" Super Retina XDR",
@@ -25,9 +59,9 @@
     "price": 799,
     "rating": 4.8,
     "featured": true,
-    "image": "assets/images/our phones.jpeg",
-    "images": ["assets/images/our phones.jpeg"],
-    "description": "Stylish iPhone 15 with dual-camera system, USB-C, and all-day battery. Available in beautiful colors including pink and green.",
+    "image": "assets/images/iphone15.jpeg",
+    "images": ["assets/images/iphone15.jpeg", "assets/images/iphone 15.1.jpeg"],
+    "description": "Stylish iPhone 15 with dual-camera system, USB-C, and all-day battery. Multiple colours available.",
     "specs": {
       "Storage": "128GB",
       "Display": "6.1\" Super Retina",
@@ -36,34 +70,34 @@
     }
   },
   {
-    "id": "iphone-14-pro",
-    "name": "iPhone 14 Pro",
+    "id": "iphone-14-pro-max",
+    "name": "iPhone 14 Pro Max",
     "brand": "apple",
     "category": "phones",
-    "price": 749,
+    "price": 849,
     "rating": 4.7,
-    "featured": true,
-    "image": "assets/images/every iphone type.jpeg",
-    "images": ["assets/images/every iphone type.jpeg"],
-    "description": "Pro-level iPhone with Dynamic Island, 48MP camera, and always-on display. A customer favorite.",
+    "featured": false,
+    "image": "assets/images/iphone 14 pro max.jpeg",
+    "images": ["assets/images/iphone 14 pro max.jpeg"],
+    "description": "Large-screen iPhone Pro Max with Dynamic Island, 48MP camera, and always-on display.",
     "specs": {
       "Storage": "256GB",
-      "Display": "6.1\" ProMotion",
+      "Display": "6.7\" ProMotion",
       "Chip": "A16 Bionic",
       "Condition": "Brand new, sealed"
     }
   },
   {
-    "id": "iphone-13",
-    "name": "iPhone 13",
+    "id": "iphone-14",
+    "name": "iPhone 14",
     "brand": "apple",
     "category": "phones",
-    "price": 599,
+    "price": 649,
     "rating": 4.6,
     "featured": false,
-    "image": "assets/images/pro.jpeg",
-    "images": ["assets/images/pro.jpeg"],
-    "description": "Reliable iPhone 13 with great battery life, dual cameras, and smooth performance at an affordable price.",
+    "image": "assets/images/iphone 14.3.jpeg",
+    "images": ["assets/images/iphone 14.3.jpeg", "assets/images/iphone 14s.1.jpeg"],
+    "description": "Reliable iPhone 14 with excellent cameras, crash detection, and great battery life.",
     "specs": {
       "Storage": "128GB",
       "Display": "6.1\" Super Retina",
@@ -72,20 +106,38 @@
     }
   },
   {
-    "id": "iphone-camera-edition",
-    "name": "iPhone Pro Camera Edition",
+    "id": "iphone-13",
+    "name": "iPhone 13",
     "brand": "apple",
     "category": "phones",
-    "price": 899,
-    "rating": 4.8,
+    "price": 549,
+    "rating": 4.6,
     "featured": false,
-    "image": "assets/images/piphone cameras.jpeg",
-    "images": ["assets/images/piphone cameras.jpeg"],
-    "description": "iPhone Pro models with industry-leading camera systems — perfect for photography and video creators.",
+    "image": "assets/images/iphone 13.jpeg",
+    "images": ["assets/images/iphone 13.jpeg", "assets/images/iphone 13.2.jpeg", "assets/images/iphone 13s.3.jpeg", "assets/images/iphone 13 series.jpeg"],
+    "description": "Popular iPhone 13 with great battery life, dual cameras, and smooth performance at an affordable price.",
     "specs": {
-      "Storage": "256GB",
-      "Camera": "Pro camera system",
-      "Video": "4K ProRes",
+      "Storage": "128GB",
+      "Display": "6.1\" Super Retina",
+      "Chip": "A15 Bionic",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "iphone-12",
+    "name": "iPhone 12",
+    "brand": "apple",
+    "category": "phones",
+    "price": 449,
+    "rating": 4.5,
+    "featured": false,
+    "image": "assets/images/iphone 12.1.jpeg",
+    "images": ["assets/images/iphone 12.1.jpeg"],
+    "description": "Classic iPhone 12 with 5G, OLED display, and solid everyday performance.",
+    "specs": {
+      "Storage": "128GB",
+      "Display": "6.1\" Super Retina",
+      "Chip": "A14 Bionic",
       "Condition": "Brand new, sealed"
     }
   },
@@ -97,8 +149,8 @@
     "price": 1099,
     "rating": 4.9,
     "featured": true,
-    "image": "assets/images/packaging.jpeg",
-    "images": ["assets/images/packaging.jpeg"],
+    "image": "assets/images/Samsung s26Ultra.jpeg",
+    "images": ["assets/images/Samsung s26Ultra.jpeg"],
     "description": "Samsung's ultimate flagship with S Pen support, stunning display, and pro-grade cameras. Factory sealed in box.",
     "specs": {
       "Storage": "256GB",
@@ -108,183 +160,111 @@
     }
   },
   {
-    "id": "samsung-galaxy-s25",
-    "name": "Samsung Galaxy S25",
-    "brand": "samsung",
-    "category": "phones",
-    "price": 899,
-    "rating": 4.8,
-    "featured": true,
-    "image": "assets/images/cool phones.jpeg",
-    "images": ["assets/images/cool phones.jpeg"],
-    "description": "Powerful Galaxy S25 with vibrant AMOLED display, fast charging, and Samsung's latest AI features.",
-    "specs": {
-      "Storage": "256GB",
-      "Display": "6.2\" Dynamic AMOLED",
-      "Chip": "Snapdragon 8 Gen 4",
-      "Condition": "Brand new, sealed"
-    }
-  },
-  {
-    "id": "samsung-galaxy-a55",
-    "name": "Samsung Galaxy A55",
-    "brand": "samsung",
-    "category": "phones",
-    "price": 449,
-    "rating": 4.5,
-    "featured": false,
-    "image": "assets/images/phones.jpeg",
-    "images": ["assets/images/phones.jpeg"],
-    "description": "Great-value Samsung phone with solid cameras, long battery life, and a premium-feel design.",
-    "specs": {
-      "Storage": "128GB",
-      "Display": "6.6\" Super AMOLED",
-      "Battery": "5000mAh",
-      "Condition": "Brand new, sealed"
-    }
-  },
-  {
-    "id": "samsung-galaxy-s24",
-    "name": "Samsung Galaxy S24",
-    "brand": "samsung",
-    "category": "phones",
-    "price": 799,
-    "rating": 4.7,
-    "featured": false,
-    "image": "assets/images/cool.jpeg",
-    "images": ["assets/images/cool.jpeg"],
-    "description": "Compact Galaxy flagship with excellent display, Galaxy AI, and reliable all-day performance.",
-    "specs": {
-      "Storage": "256GB",
-      "Display": "6.2\" Dynamic AMOLED",
-      "Chip": "Snapdragon 8 Gen 3",
-      "Condition": "Brand new, sealed"
-    }
-  },
-  {
-    "id": "type-c-lightning-cable",
-    "name": "Type-C to Lightning Cable (20W)",
+    "id": "airpods",
+    "name": "AirPods",
     "brand": "accessory",
     "category": "accessories",
-    "price": 15,
+    "price": 129,
     "rating": 4.6,
     "featured": true,
-    "image": "assets/images/store.jpeg",
-    "images": ["assets/images/store.jpeg"],
-    "description": "Fast-charging USB-C to Lightning cable. 20W PD support, 1 meter length. Compatible with all iOS devices.",
+    "image": "assets/images/Airpods.jpeg",
+    "images": ["assets/images/Airpods.jpeg"],
+    "description": "Wireless Apple AirPods with great sound quality and easy pairing with your iPhone.",
     "specs": {
-      "Power": "20W PD Fast Charge",
-      "Length": "1 meter",
-      "Connector": "USB-C to Lightning",
-      "Compatibility": "All iPhones & iPads"
+      "Connectivity": "Bluetooth",
+      "Battery": "Up to 5 hours",
+      "Case": "Charging case included",
+      "Compatibility": "iPhone & Android"
     }
   },
   {
-    "id": "camera-lens-protector",
-    "name": "iPhone Camera Lens Protector",
+    "id": "airpods-pro",
+    "name": "AirPods Pro",
     "brand": "accessory",
     "category": "accessories",
-    "price": 12,
-    "rating": 4.5,
+    "price": 249,
+    "rating": 4.8,
     "featured": true,
-    "image": "assets/images/our phone seals.jpeg",
-    "images": ["assets/images/our phone seals.jpeg"],
-    "description": "Premium lens protectors for iPhone 13 & 14 series. Keeps your camera glass scratch-free.",
+    "image": "assets/images/Airpodspro.jpeg",
+    "images": ["assets/images/Airpodspro.jpeg", "assets/images/Airpods pro.1.jpeg"],
+    "description": "Premium AirPods Pro with active noise cancellation and adaptive audio.",
     "specs": {
-      "Material": "Tempered glass",
-      "Fit": "iPhone 13 / 14 series",
-      "Install": "Easy snap-on",
-      "Pack": "Multi-lens set"
+      "ANC": "Active Noise Cancellation",
+      "Battery": "Up to 6 hours",
+      "Charging": "USB-C / MagSafe",
+      "Compatibility": "iPhone & Android"
     }
   },
   {
-    "id": "phone-case-bundle",
-    "name": "Premium Phone Case Bundle",
+    "id": "chargers-lens-protection",
+    "name": "Chargers & Lens Protection Kit",
     "brand": "accessory",
     "category": "accessories",
     "price": 25,
     "rating": 4.7,
     "featured": true,
-    "image": "assets/images/device packing.jpeg",
-    "images": ["assets/images/device packing.jpeg"],
-    "description": "Protective cases and packaging-ready bundles for iPhone and Samsung devices.",
+    "image": "assets/images/chargers and lens protection.jpeg",
+    "images": ["assets/images/chargers and lens protection.jpeg"],
+    "description": "Fast chargers and camera lens protectors for iPhone. Keep your phone powered and protected.",
     "specs": {
-      "Includes": "Case + screen guard",
-      "Protection": "Shock absorbent",
-      "Colors": "Multiple options",
-      "Fit": "iPhone & Samsung"
+      "Includes": "Charger + lens protectors",
+      "Power": "20W fast charge",
+      "Fit": "iPhone 13 / 14 series",
+      "Material": "Tempered glass lenses"
     }
   },
   {
-    "id": "fast-charger-kit",
-    "name": "Fast Charger Kit",
+    "id": "iphone-14-pro-chargers",
+    "name": "iPhone 14 Pro Chargers",
+    "brand": "accessory",
+    "category": "accessories",
+    "price": 20,
+    "rating": 4.6,
+    "featured": false,
+    "image": "assets/images/iphone 14pro chargers.jpeg",
+    "images": ["assets/images/iphone 14pro chargers.jpeg"],
+    "description": "Fast chargers designed for iPhone 14 Pro and compatible models.",
+    "specs": {
+      "Power": "20W PD",
+      "Connector": "USB-C to Lightning",
+      "Compatibility": "iPhone 14 Pro series",
+      "Length": "1 meter"
+    }
+  },
+  {
+    "id": "wireless-charger",
+    "name": "Wireless Charger",
     "brand": "accessory",
     "category": "accessories",
     "price": 35,
-    "rating": 4.8,
-    "featured": false,
-    "image": "assets/images/WhatsApp Image 2026-06-07 at 13.18.53.jpeg",
-    "images": ["assets/images/WhatsApp Image 2026-06-07 at 13.18.53.jpeg"],
-    "description": "Complete fast charging kit with adapter and cable for iPhone and Samsung phones.",
-    "specs": {
-      "Output": "20W–25W",
-      "Cable": "USB-C included",
-      "Safety": "Overcharge protection",
-      "Warranty": "Store guaranteed"
-    }
-  },
-  {
-    "id": "earbuds-pro",
-    "name": "Wireless Earbuds Pro",
-    "brand": "accessory",
-    "category": "accessories",
-    "price": 89,
     "rating": 4.7,
     "featured": false,
-    "image": "assets/images/WhatsApp Image 2026-06-07 at 13.18.55.jpeg",
-    "images": ["assets/images/WhatsApp Image 2026-06-07 at 13.18.55.jpeg"],
-    "description": "Premium wireless earbuds with noise cancellation and long battery life. Great companion for your phone.",
+    "image": "assets/images/wirelesscharger.jpeg",
+    "images": ["assets/images/wirelesscharger.jpeg"],
+    "description": "Convenient wireless charging pad for iPhone and Samsung phones.",
     "specs": {
-      "ANC": "Active noise cancelling",
-      "Battery": "Up to 6 hours",
-      "Connectivity": "Bluetooth 5.3",
-      "Case": "Charging case included"
+      "Output": "15W wireless",
+      "Compatibility": "Qi-enabled devices",
+      "Design": "Slim pad",
+      "Safety": "Overcharge protection"
     }
   },
   {
-    "id": "screen-protector-pack",
-    "name": "Tempered Glass Screen Protector",
+    "id": "device-packing-bundle",
+    "name": "Device Packing Bundle",
     "brand": "accessory",
     "category": "accessories",
-    "price": 10,
+    "price": 15,
     "rating": 4.5,
     "featured": false,
-    "image": "assets/images/WhatsApp Image 2026-06-07 at 13.19.00.jpeg",
-    "images": ["assets/images/WhatsApp Image 2026-06-07 at 13.19.00.jpeg"],
-    "description": "HD clear tempered glass screen protectors. Bubble-free install for iPhone and Samsung models.",
+    "image": "assets/images/device packing.jpeg",
+    "images": ["assets/images/device packing.jpeg"],
+    "description": "Protective packaging and accessories bundle for safe device storage and transport.",
     "specs": {
-      "Hardness": "9H tempered glass",
-      "Clarity": "HD transparent",
-      "Fit": "Multiple models",
-      "Pack": "Single or multi-pack"
-    }
-  },
-  {
-    "id": "power-bank",
-    "name": "Portable Power Bank",
-    "brand": "accessory",
-    "category": "accessories",
-    "price": 45,
-    "rating": 4.6,
-    "featured": false,
-    "image": "assets/images/WhatsApp Image 2026-06-07 at 13.19.02.jpeg",
-    "images": ["assets/images/WhatsApp Image 2026-06-07 at 13.19.02.jpeg"],
-    "description": "High-capacity power bank for charging your iPhone or Samsung on the go.",
-    "specs": {
-      "Capacity": "10000mAh",
-      "Ports": "USB-C + USB-A",
-      "Fast Charge": "Supported",
-      "LED": "Battery indicator"
+      "Includes": "Protective packaging",
+      "Use": "Storage & transport",
+      "Fit": "Phones & accessories",
+      "Condition": "New"
     }
   }
 ]

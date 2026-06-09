@@ -49,8 +49,8 @@ const CATEGORY_DESCRIPTIONS = {
 };
 
 const CATEGORY_IMAGES = {
-  phones: 'assets/images/cool phones.jpeg',
-  accessories: 'assets/images/store.jpeg',
+  phones: 'assets/images/iphone 16 pro.1.jpeg',
+  accessories: 'assets/images/chargers and lens protection.jpeg',
 };
 
 const BRAND_LABELS = {
