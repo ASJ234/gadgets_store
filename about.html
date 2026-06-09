@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="About King's Haven Store — genuine iPhones, Samsung phones, and accessories.">
+  <meta name="description" content="About King's Haven Store — your trusted destination for genuine iPhones, Samsung phones, and premium tech accessories.">
   <title>About — King's Haven Store</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/variables.css">
@@ -12,6 +12,7 @@
 </head>
 <body data-page="about">
   <div class="page-wrapper">
+    
     <header class="site-header">
       <div class="container header-inner">
         <a href="index.html" class="logo">King<span>'s Haven</span></a>
@@ -23,46 +24,68 @@
             <li><a href="index.html" data-nav="home">Home</a></li>
             <li><a href="catalog.html" data-nav="catalog">Catalog</a></li>
             <li><a href="location.html" data-nav="location">Location</a></li>
-            <li><a href="about.html" data-nav="about">About</a></li>
+            <li><a href="about.html" data-nav="about" class="active">About</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <section class="about-hero">
-      <img src="assets/images/store.jpeg" alt="" class="about-hero-bg" aria-hidden="true">
-      <div class="about-hero-overlay"></div>
-      <div class="container about-hero-content">
-        <h1 class="about-hero-title">Innovation that excites</h1>
-        <p class="about-hero-text">Genuine iPhones, Samsung Galaxy phones, and accessories at affordable prices.</p>
+    <!-- Hero Banner -->
+    <section class="hero-banner" id="about-hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1 class="hero-title">Upgrade Your Digital Lifestyle</h1>
+        <p class="hero-subtitle">Genuine smartphones, elite accessories, and unmatched service — curated for your everyday.</p>
+        <a href="catalog.html" class="hero-cta">Explore the Catalog</a>
       </div>
     </section>
 
     <main>
       <div class="container">
         <div class="about-content">
-          <div class="about-split">
-            <div class="about-split-text">
-              <h2>Who we are</h2>
+          
+          <!-- Who We Are -->
+          <div class="flex-row fade-in">
+            <div class="flex-text">
+              <h2>Who We Are</h2>
               <p>
-                King's Haven Store is your destination for brand-new, sealed iPhones and Samsung Galaxy phones —
-                from the S26 Ultra and S25 to A series models — plus AirPods, chargers, and more.
+                Welcome to King's Haven Store, where your passion for cutting-edge innovation meets uncompromised quality. 
+                We don't just sell devices — we deliver the future straight to your hands. From the latest flagship iPhones 
+                to Samsung Galaxy powerhouses, we stock only the best.
               </p>
               <p>
-                We deliver nationwide and welcome you to visit our store to see products in person before you buy.
+                Whether you're looking to elevate your creative hustle, smash your university goals, or stay effortlessly connected, 
+                our premium catalog guarantees unmatched reliability and competitive pricing.
               </p>
             </div>
-            <div class="about-split-image">
-              <img src="assets/images/iphone%2013%20series.jpeg" alt="iPhone 13 series in stock" loading="lazy">
+            <div class="flex-image-container">
+              <img src="assets/images/iphone%2013%20series.jpeg" alt="iPhone 13 series lineup at King's Haven" class="side-image" loading="lazy">
             </div>
           </div>
 
-          <div class="about-split about-split--reverse">
-            <div class="about-split-image">
-              <img src="assets/images/Samsung%20s%20series.jpeg" alt="Samsung Galaxy S series lineup" loading="lazy">
+          <!-- Animated Stats -->
+          <section class="stats-counter-section" id="stats-section">
+            <div class="stat-card">
+              <span class="stat-number" data-target="1500">0</span>
+              <span class="stat-label">Happy Clients Served</span>
             </div>
-            <div class="about-split-text">
-              <h2>What we sell</h2>
+            <div class="stat-card">
+              <span class="stat-number" data-target="350">0</span>
+              <span class="stat-label">Premium Devices in Stock</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="100">0</span>
+              <span class="stat-label">% Authenticity Guarantee</span>
+            </div>
+          </section>
+
+          <!-- What We Sell -->
+          <div class="flex-row reverse fade-in">
+            <div class="flex-image-container">
+              <img src="assets/images/Samsung%20s%20series.jpeg" alt="Samsung Galaxy S series lineup" class="side-image" loading="lazy">
+            </div>
+            <div class="flex-text">
+              <h2>What We Sell</h2>
               <p>
                 <strong>iPhones:</strong> iPhone 12 through iPhone 17 Pro Max — factory sealed with authentic documentation.
               </p>
@@ -72,33 +95,85 @@
               <p>
                 <strong>Accessories:</strong> AirPods, AirPods Pro, wireless chargers, lens protectors, and charging cables.
               </p>
-              <p><a href="catalog.html">Browse our full catalog &rarr;</a></p>
+              <p><a href="catalog.html" class="inline-link">Browse our full catalog &rarr;</a></p>
             </div>
           </div>
 
-          <h2 class="about-features-title">Why shop with us</h2>
-          <div class="about-features">
-            <div class="about-feature">
-              <img src="assets/images/authentic%20receipt.jpeg" alt="Authentic purchase receipt" loading="lazy">
-              <h3>Authentic receipt</h3>
-              <p>Proper documentation with every purchase.</p>
+          <!-- Our Showroom -->
+          <div class="flex-row fade-in">
+            <div class="flex-text">
+              <h2>Our Showroom Experience</h2>
+              <p>
+                Our team of dedicated tech experts is on standby to help you find your perfect device. 
+                We believe in an interactive experience — feel the premium build quality, snap crystal-clear test photos, 
+                and test-drive the processing power of our hardware before making your choice.
+              </p>
+              <p>
+                Stop settling for generic descriptions online. Walk into an ecosystem designed to optimize how you live, 
+                work, and play.
+              </p>
             </div>
-            <div class="about-feature">
-              <img src="assets/images/device%20packing.jpeg" alt="Sealed device packaging" loading="lazy">
-              <h3>Factory sealed</h3>
-              <p>Phones sealed and ready for you.</p>
-            </div>
-            <div class="about-feature">
-              <img src="assets/images/chargers%20and%20lens%20protection.jpeg" alt="Chargers and lens protectors" loading="lazy">
-              <h3>Accessories in stock</h3>
-              <p>Chargers, AirPods, and protectors available.</p>
-            </div>
-            <div class="about-feature">
-              <img src="assets/images/store.jpeg" alt="Inside King's Haven Store" loading="lazy">
-              <h3>Nationwide delivery</h3>
-              <p>We deliver across all regions. <a href="location.html">Get in touch</a>.</p>
+            <div class="flex-image-container">
+              <img src="assets/images/store.jpeg" alt="Inside King's Haven Store showroom" class="side-image" loading="lazy">
             </div>
           </div>
+
+          <!-- Life at King's Haven — Media Showcase -->
+          <h2 class="section-divider-title fade-in">Life at King's Haven</h2>
+          <div class="media-showcase-grid fade-in">
+            <div class="showcase-item tall">
+              <img src="assets/images/iphone%2014s.1.jpeg" alt="iPhone 14 collection at King's Haven" loading="lazy">
+              <div class="showcase-overlay">
+                <span>Our Premium Collection</span>
+              </div>
+            </div>
+            <div class="showcase-item">
+              <img src="assets/images/store.jpeg" alt="King's Haven store front view" loading="lazy">
+              <div class="showcase-overlay">
+                <span>Our Physical Hub</span>
+              </div>
+            </div>
+            <div class="showcase-item">
+              <img src="assets/images/device%20packing.jpeg" alt="Factory sealed device packaging" loading="lazy">
+              <div class="showcase-overlay">
+                <span>Sealed & Inspected</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Why Shop With Us -->
+          <h2 class="section-divider-title fade-in">Why Shop With Us?</h2>
+          <div class="about-features fade-in">
+            <div class="about-feature">
+              <div class="feature-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3>100% Authentic</h3>
+              <p>Every device comes factory-sealed with genuine documentation and receipts you can trust.</p>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+              </div>
+              <h3>Expert Advice</h3>
+              <p>Skip the guesswork. Speak with tech professionals ready to match devices to your needs.</p>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <h3>Visit In Store</h3>
+              <p>Experience live demos before you decide. <a href="location.html">Get directions to our store</a>.</p>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+              </div>
+              <h3>Nationwide Delivery</h3>
+              <p>We deliver across all regions. Your next device is just a call away, wherever you are.</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </main>
@@ -117,5 +192,62 @@
   </div>
 
   <script src="js/main.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+      /* ---- Animated Stat Counters ---- */
+      const statsSection = document.getElementById("stats-section");
+      const counters = document.querySelectorAll(".stat-number");
+
+      if (statsSection && counters.length > 0) {
+        const animateCounters = () => {
+          counters.forEach(counter => {
+            const target = +counter.getAttribute("data-target");
+            const speed = target / 60;
+
+            const updateCount = () => {
+              const currentCount = +counter.innerText.replace(/[^0-9]/g, '');
+              if (currentCount < target) {
+                counter.innerText = Math.ceil(currentCount + speed);
+                setTimeout(updateCount, 25);
+              } else {
+                counter.innerText = target === 100 ? target + "%" : target + "+";
+              }
+            };
+
+            updateCount();
+          });
+        };
+
+        const statsObserver = new IntersectionObserver((entries, obs) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              animateCounters();
+              obs.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.3 });
+
+        statsObserver.observe(statsSection);
+      }
+
+      /* ---- Scroll-triggered fade-in animations ---- */
+      const fadeEls = document.querySelectorAll('.fade-in');
+      if (fadeEls.length > 0) {
+        const fadeObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              fadeObserver.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+        fadeEls.forEach(el => fadeObserver.observe(el));
+      }
+
+    });
+  </script>
 </body>
 </html>
