@@ -1,17 +1,21 @@
 document.addEventListener('DOMContentLoaded', async () => {
   const gridContainer = document.getElementById('catalog-grid');
   const pillsContainer = document.getElementById('filter-pills');
+  const brandPillsContainer = document.getElementById('brand-pills');
   const searchInput = document.getElementById('search-input');
   const sortSelect = document.getElementById('sort-select');
   const resultsCount = document.getElementById('results-count');
   if (!gridContainer || !pillsContainer) return;
 
+  const params = new URLSearchParams(window.location.search);
   let allProducts = [];
-  let activeCategory = new URLSearchParams(window.location.search).get('category') || 'all';
+  let activeCategory = params.get('category') || 'all';
+  let activeBrand = params.get('brand') || 'all';
 
   try {
     allProducts = await getAll();
     renderFilterPills(pillsContainer, activeCategory);
+    if (brandPillsContainer) renderBrandPills(brandPillsContainer, activeBrand);
     applyFilters();
   } catch (err) {
     gridContainer.innerHTML = '<p class="loading">Unable to load products. Please try again later.</p>';
@@ -33,20 +37,61 @@ document.addEventListener('DOMContentLoaded', async () => {
       pill.dataset.category = cat;
       pill.addEventListener('click', () => {
         activeCategory = cat;
+        if (cat === 'accessories') activeBrand = 'all';
         container.querySelectorAll('.filter-pill').forEach((p) => {
           p.classList.toggle('active', p.dataset.category === cat);
         });
-        const url = new URL(window.location);
-        if (cat === 'all') {
-          url.searchParams.delete('category');
-        } else {
-          url.searchParams.set('category', cat);
+        updateUrl();
+        if (brandPillsContainer) {
+          renderBrandPills(brandPillsContainer, activeBrand);
         }
-        window.history.replaceState({}, '', url);
         applyFilters();
       });
       container.appendChild(pill);
     });
+  }
+
+  function renderBrandPills(container, selected) {
+    const showBrands = activeCategory === 'all' || activeCategory === 'phones';
+    if (!showBrands) {
+      container.innerHTML = '';
+      container.hidden = true;
+      return;
+    }
+    container.hidden = false;
+    const brands = ['all', 'apple', 'samsung'];
+    container.innerHTML = '';
+    brands.forEach((brand) => {
+      const pill = document.createElement('button');
+      pill.type = 'button';
+      pill.className = 'filter-pill filter-pill--brand' + (brand === selected ? ' active' : '');
+      pill.textContent = brand === 'all' ? 'All brands' : getBrandLabel(brand);
+      pill.dataset.brand = brand;
+      pill.addEventListener('click', () => {
+        activeBrand = brand;
+        container.querySelectorAll('.filter-pill').forEach((p) => {
+          p.classList.toggle('active', p.dataset.brand === brand);
+        });
+        updateUrl();
+        applyFilters();
+      });
+      container.appendChild(pill);
+    });
+  }
+
+  function updateUrl() {
+    const url = new URL(window.location);
+    if (activeCategory === 'all') {
+      url.searchParams.delete('category');
+    } else {
+      url.searchParams.set('category', activeCategory);
+    }
+    if (activeBrand === 'all' || activeCategory === 'accessories') {
+      url.searchParams.delete('brand');
+    } else {
+      url.searchParams.set('brand', activeBrand);
+    }
+    window.history.replaceState({}, '', url);
   }
 
   function applyFilters() {
@@ -56,13 +101,18 @@ document.addEventListener('DOMContentLoaded', async () => {
       filtered = filtered.filter((p) => p.category === activeCategory);
     }
 
+    if (activeBrand !== 'all' && activeCategory !== 'accessories') {
+      filtered = filtered.filter((p) => p.brand === activeBrand);
+    }
+
     const query = searchInput?.value.trim().toLowerCase() || '';
     if (query) {
       filtered = filtered.filter(
         (p) =>
           p.name.toLowerCase().includes(query) ||
           p.description.toLowerCase().includes(query) ||
-          getCategoryLabel(p.category).toLowerCase().includes(query)
+          getCategoryLabel(p.category).toLowerCase().includes(query) ||
+          getBrandLabel(p.brand).toLowerCase().includes(query)
       );
     }
 

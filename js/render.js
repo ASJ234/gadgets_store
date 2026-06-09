@@ -1,3 +1,7 @@
+function assetUrl(path) {
+  return encodeURI(path);
+}
+
 function formatPrice(price) {
   return new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -27,9 +31,16 @@ function renderProductCard(product) {
   const card = document.createElement('a');
   card.href = 'product.html?id=' + encodeURIComponent(product.id);
   card.className = 'product-card';
+
+  const brandBadge =
+    product.brand && product.brand !== 'accessory'
+      ? '<span class="product-card-brand product-card-brand--' + product.brand + '">' + escapeHtml(getBrandLabel(product.brand)) + '</span>'
+      : '';
+
   card.innerHTML =
     '<div class="product-card-image">' +
-    '<img src="' + product.image + '" alt="' + escapeHtml(product.name) + '" loading="lazy">' +
+    brandBadge +
+    '<img src="' + assetUrl(product.image) + '" alt="' + escapeHtml(product.name) + '" loading="lazy">' +
     '</div>' +
     '<div class="product-card-body">' +
     '<span class="product-card-category">' + escapeHtml(getCategoryLabel(product.category)) + '</span>' +
@@ -67,16 +78,24 @@ function escapeHtml(text) {
 function renderCategoryTiles(categories, container) {
   container.innerHTML = '';
   const grid = document.createElement('div');
-  grid.className = 'category-grid';
+  grid.className = 'category-grid category-grid--home';
 
   categories.forEach((category) => {
     const tile = document.createElement('a');
     tile.href = 'catalog.html?category=' + encodeURIComponent(category);
-    tile.className = 'category-tile';
+    tile.className = 'category-tile category-tile--image';
+    const image = getCategoryImage(category);
 
     tile.innerHTML =
-      '<span class="category-tile-icon">' + getCategoryIcon(category) + '</span>' +
-      '<span class="category-tile-label">' + escapeHtml(getCategoryLabel(category)) + '</span>';
+      '<div class="category-tile-media">' +
+      '<img src="' + assetUrl(image) + '" alt="' + escapeHtml(getCategoryLabel(category)) + '" loading="lazy">' +
+      '<span class="category-tile-overlay"></span>' +
+      '</div>' +
+      '<div class="category-tile-content">' +
+      '<span class="category-tile-label">' + escapeHtml(getCategoryLabel(category)) + '</span>' +
+      '<span class="category-tile-desc">' + escapeHtml(getCategoryDescription(category)) + '</span>' +
+      '<span class="category-tile-cta">Browse &rarr;</span>' +
+      '</div>';
     grid.appendChild(tile);
   });
 

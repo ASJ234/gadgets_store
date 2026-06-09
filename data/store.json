@@ -1,12 +1,13 @@
 {
-  "name": "KingHaven Store",
-  "address": "123 Gadget Lane, Tech City, TC 10001",
-  "phone": "+1 (555) 123-4567",
-  "email": "hello@kinghavenstore.com",
-  "directionsUrl": "https://www.google.com/maps/search/?api=1&query=123+Gadget+Lane+Tech+City",
+  "name": "King's Haven Store",
+  "address": "Visit us in store — delivery available nationwide",
+  "phone": "+256 784 884 042",
+  "phoneAlt": "+256 751 390 441",
+  "email": "pleasurek142@gmail.com",
+  "tagline": "Innovation that excites — genuine phones and gadgets at affordable prices",
+  "directionsUrl": "https://www.google.com/maps/search/?api=1&query=King%27s+Haven+Store+Uganda",
   "hours": {
-    "Mon-Fri": "9:00 AM – 8:00 PM",
-    "Sat": "10:00 AM – 6:00 PM",
+    "Mon-Sat": "9:00 AM – 8:00 PM",
     "Sun": "Closed"
   },
   "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.966471012!2d-74.00425878459418!3d40.74076684379132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1717776000000!5m2!1sen!2sus"

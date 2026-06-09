@@ -1,83 +1,151 @@
-/* --- Featured Promo Banner Container --- */
-.promo-banner-section {
+/* About page — about.html */
+
+.about-hero {
   position: relative;
-  width: 100%;
-  max-width: var(--max-content-width);
-  margin: 3.5rem auto;
-  min-height: 400px;
-  
-  /* Link your background image here (steps out of css/ folder into assets/) */
-  background: url('../assets/images/king.jpeg') no-repeat center center / cover;
-  
-  border-radius: var(--radius-card);
-  border: 1px solid var(--border-silent);
-  overflow: hidden;
-  
-  /* Flexbox: Centers the dark overlay card both vertically and horizontally */
+  min-height: 280px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 2rem;
-  box-sizing: border-box;
+  overflow: hidden;
 }
 
-/* --- The Semi-Transparent Text Card Overlay --- */
-.promo-card-overlay {
-  background-color: rgba(22, 27, 34, 0.85); /* Smooth dark tint backdrop */
-  backdrop-filter: blur(4px);                 /* Micro-blur effect */
-  max-width: 800px;
+.about-hero-bg {
+  position: absolute;
+  inset: 0;
   width: 100%;
-  padding: 2.5rem;
-  border-radius: 8px;                         /* Rounded card borders */
-  border: 1px solid rgba(240, 246, 252, 0.1);
-  text-align: center;                         /* Centers all text inside */
-  box-sizing: border-box;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  object-fit: cover;
 }
 
-/* Gold/Yellow Heading Alignment */
-.promo-title {
-  font-size: 1.6rem;
+.about-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(79, 70, 229, 0.85), rgba(30, 41, 59, 0.75));
+}
+
+.about-hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 3rem 0;
+  text-align: center;
+  color: white;
+}
+
+.about-hero-title {
+  font-size: var(--text-2xl);
   font-weight: 700;
-  color: var(--accent-yellow);                /* Signature accent color */
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-top: 0;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.75rem;
 }
 
-/* Middle body description paragraph */
-.promo-text {
-  font-size: 1.05rem;
-  color: var(--text-primary);
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
+.about-hero-text {
+  font-size: var(--text-lg);
+  opacity: 0.95;
+  max-width: 36rem;
+  margin: 0 auto;
 }
 
-/* Italicized bottom helper text call */
-.promo-subtext {
-  font-size: 1rem;
-  color: var(--text-secondary);
-  font-style: italic;
-  margin: 0;
+.about-content {
+  max-width: var(--max-width);
 }
 
-/* --- Responsive Adjustments --- */
-@media (max-width: 768px) {
-  .promo-banner-section {
-    min-height: 450px;
-    padding: 1rem;
+.about-content p {
+  margin-bottom: 1rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+.about-content a {
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.about-content a:hover {
+  text-decoration: underline;
+}
+
+.about-split {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .about-split {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
   }
-  
-  .promo-card-overlay {
-    padding: 1.5rem;
+
+  .about-split--reverse .about-split-image {
+    order: -1;
   }
-  
-  .promo-title {
-    font-size: 1.3rem;
+}
+
+.about-split-text h2 {
+  font-size: var(--text-xl);
+  margin-bottom: 1rem;
+}
+
+.about-split-image {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-md);
+}
+
+.about-split-image img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.about-features-title {
+  font-size: var(--text-xl);
+  margin: 2rem 0 1.25rem;
+  text-align: center;
+}
+
+.about-features {
+  display: grid;
+  gap: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .about-features {
+    grid-template-columns: repeat(2, 1fr);
   }
-  
-  .promo-text {
-    font-size: 0.95rem;
+}
+
+@media (min-width: 1024px) {
+  .about-features {
+    grid-template-columns: repeat(4, 1fr);
   }
+}
+
+.about-feature {
+  background: var(--color-bg-alt);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+}
+
+.about-feature img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.about-feature h3 {
+  font-size: var(--text-base);
+  font-weight: 600;
+  padding: 1rem 1rem 0.25rem;
+}
+
+.about-feature p {
+  font-size: var(--text-sm);
+  padding: 0 1rem 1rem;
+  margin-bottom: 0;
+}
+
+.about-feature a {
+  color: var(--color-primary);
 }

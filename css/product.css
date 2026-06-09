@@ -59,6 +59,14 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--color-text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.product-detail-brand {
+  display: inline-block;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-primary);
   margin-bottom: 0.5rem;
 }
 

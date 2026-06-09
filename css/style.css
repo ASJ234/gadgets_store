@@ -400,6 +400,31 @@ main {
   aspect-ratio: 4 / 3;
   background: var(--color-bg-alt);
   overflow: hidden;
+  position: relative;
+}
+
+.product-card-brand {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 1;
+  padding: 0.25rem 0.625rem;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--color-text);
+  box-shadow: var(--shadow);
+}
+
+.product-card-brand--apple {
+  color: #1d1d1f;
+}
+
+.product-card-brand--samsung {
+  color: #1428a0;
 }
 
 .product-card-image img {

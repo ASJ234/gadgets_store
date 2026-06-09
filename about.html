@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="About KingHaven Store — your trusted destination for the latest gadgets and tech accessories.">
-  <title>About — KingHaven Store</title>
+  <meta name="description" content="About King's Haven Store — genuine iPhones, Samsung phones, and accessories.">
+  <title>About — King's Haven Store</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/about.css">
 </head>
 <body data-page="about">
   <div class="page-wrapper">
     <header class="site-header">
       <div class="container header-inner">
-        <a href="index.html" class="logo">King<span>Haven</span></a>
+        <a href="index.html" class="logo">King<span>'s Haven</span></a>
         <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
           <span class="nav-toggle-icon"></span>
         </button>
@@ -28,77 +29,72 @@
       </div>
     </header>
 
-    <!-- NEW HERO BANNER: Background image managed via CSS -->
-    <section class="hero-banner">
-      <div class="hero-overlay"></div>
-      <div class="container hero-content">
-        <h1 class="hero-title">Upgrade Your Digital Lifestyle</h1>
-        <p class="hero-subtitle">Discover premium smartphones, elite laptops, and must-have tech accessories explicitly curated for your life speed.</p>
-        <a href="catalog.html" class="hero-cta">Explore the Catalog</a>
+    <section class="about-hero">
+      <img src="assets/images/king.jpeg" alt="" class="about-hero-bg" aria-hidden="true">
+      <div class="about-hero-overlay"></div>
+      <div class="container about-hero-content">
+        <h1 class="about-hero-title">Innovation that excites</h1>
+        <p class="about-hero-text">Genuine iPhones, Samsung phones, and accessories at affordable prices.</p>
       </div>
     </section>
 
     <main>
       <div class="container">
         <div class="about-content">
-          
-          <!-- FLEX LAYOUT SECTION 1: Story + Phone Image -->
-          <div class="flex-row">
-            <div class="flex-text">
-              <h2>Who We Are</h2>
+          <div class="about-split">
+            <div class="about-split-text">
+              <h2>Who we are</h2>
               <p>
-                Welcome to KingHaven Store, where your passion for cutting-edge innovation meets uncompromised quality. 
-                We don't just sell devices—we deliver the future straight to your hands. From pocket-sized powerhouses like 
-                the latest flagship smartphones to high-performance workstations, we stock only the best.
+                King's Haven Store is your destination for brand-new, sealed iPhones and Samsung Galaxy phones,
+                plus the accessories you need — cables, cases, screen protectors, and more.
               </p>
               <p>
-                Whether you're looking to elevate your creative hustle, smash your university goals, or stay effortlessly connected, 
-                our premium catalog guarantees unmatched reliability and competitive pricing.
+                We deliver nationwide and welcome you to visit our store to see products in person before you buy.
               </p>
             </div>
-            <div class="flex-image-container">
-              <img src="assets/images/phones.jpeg" alt="Latest premium smartphones lineup" class="side-image">
+            <div class="about-split-image">
+              <img src="assets/images/phones.jpeg" alt="Samsung and iPhone lineup" loading="lazy">
             </div>
           </div>
 
-          <!-- FLEX LAYOUT SECTION 2: Team + Store Image (Reversed order on desktop) -->
-          <div class="flex-row reverse">
-            <div class="flex-image-container">
-              <img src="assets/images/store.jpeg" alt="Inside KingHaven showroom" class="side-image">
+          <div class="about-split about-split--reverse">
+            <div class="about-split-image">
+              <img src="assets/images/store.jpeg" alt="Accessories and cables at King's Haven Store" loading="lazy">
             </div>
-            <div class="flex-text">
-              <h2>Our Showroom Experience</h2>
+            <div class="about-split-text">
+              <h2>What we sell</h2>
               <p>
-                Our team of dedicated tech experts is on standard stand-by to help you engineer your perfect setup. 
-                We believe in an interactive experience—feel the premium build quality, snap crystal-clear test photos, 
-                and test-drive the processing power of our hardware before making your choice.
+                <strong>Phones:</strong> iPhone and Samsung models — factory sealed with authentic documentation.
               </p>
               <p>
-                Stop settling for generic descriptions online. Walk into an ecosystem designed to optimize how you live, 
-                work, and play.
+                <strong>Accessories:</strong> Fast chargers, Type-C to Lightning cables, lens protectors,
+                cases, earbuds, and power banks.
               </p>
+              <p><a href="catalog.html">Browse our full catalog &rarr;</a></p>
             </div>
           </div>
 
-          <h2 class="section-divider-title">Why Shop With Us?</h2>
-
-          <!-- Grid Configuration for features -->
+          <h2 class="about-features-title">Why shop with us</h2>
           <div class="about-features">
             <div class="about-feature">
-              <h3>Curated Selection</h3>
-              <p>We hand-pick every flagship smartphone and accessory to guarantee top-tier value and processing power.</p>
+              <img src="assets/images/authentic%20receipt.jpeg" alt="" loading="lazy">
+              <h3>Authentic receipt</h3>
+              <p>Proper documentation with every purchase.</p>
             </div>
             <div class="about-feature">
-              <h3>Expert Advice</h3>
-              <p>Skip the guesswork. Speak with tech professionals ready to map devices directly to your operational workflow.</p>
+              <img src="assets/images/our%20phone%20seals.jpeg" alt="" loading="lazy">
+              <h3>Factory sealed</h3>
+              <p>Phones with security seals intact.</p>
             </div>
             <div class="about-feature">
-              <h3>Visit In Store</h3>
-              <p>Experience live demonstrations before finalizing your upgrade. <a href="location.html">Get direct route mapping</a>.</p>
+              <img src="assets/images/much%20stock%20available.jpeg" alt="" loading="lazy">
+              <h3>Wide stock</h3>
+              <p>Many iPhone and Samsung models in store.</p>
             </div>
             <div class="about-feature">
-              <h3>Next-Gen Releases</h3>
-              <p>Get exclusive early access to major hardware ecosystem drops and trending premium wearables.</p>
+              <img src="assets/images/packaging.jpeg" alt="" loading="lazy">
+              <h3>Nationwide delivery</h3>
+              <p>We deliver across all regions. <a href="location.html">Get in touch</a>.</p>
             </div>
           </div>
         </div>
@@ -107,13 +103,13 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p class="footer-brand">KingHaven Store</p>
+        <p class="footer-brand">King's Haven Store</p>
         <nav class="footer-links">
           <a href="catalog.html">Catalog</a>
           <a href="location.html">Location</a>
           <a href="about.html">About</a>
         </nav>
-        <p class="footer-copy">&copy; 2026 KingHaven Store. All rights reserved.</p>
+        <p class="footer-copy">&copy; 2026 King's Haven Store. All rights reserved.</p>
       </div>
     </footer>
   </div>

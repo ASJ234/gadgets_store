@@ -62,7 +62,9 @@ function renderStoreInfo(store, container) {
     '</div>' +
     '<div class="store-info-item">' +
     '<p class="store-info-label">Phone</p>' +
-    '<p class="store-info-value"><a href="tel:' + store.phone.replace(/\D/g, '') + '">' + escapeHtml(store.phone) + '</a></p>' +
+    '<p class="store-info-value"><a href="tel:' + store.phone.replace(/\D/g, '') + '">' + escapeHtml(store.phone) + '</a>' +
+    (store.phoneAlt ? '<br><a href="tel:' + store.phoneAlt.replace(/\D/g, '') + '">' + escapeHtml(store.phoneAlt) + '</a>' : '') +
+    '</p>' +
     '</div>' +
     '<div class="store-info-item">' +
     '<p class="store-info-label">Email</p>' +

@@ -2,256 +2,289 @@
   {
     "id": "iphone-16-pro",
     "name": "iPhone 16 Pro",
+    "brand": "apple",
     "category": "phones",
     "price": 999,
-    "rating": 4.8,
+    "rating": 4.9,
     "featured": true,
-    "image": "https://placehold.co/600x450/4f46e5/ffffff?text=iPhone+16+Pro",
-    "images": ["https://placehold.co/600x450/4f46e5/ffffff?text=iPhone+16+Pro"],
-    "description": "The latest iPhone with A18 Pro chip, titanium design, and an advanced camera system for stunning photos and videos.",
+    "image": "assets/images/latest iphones available.jpeg",
+    "images": ["assets/images/latest iphones available.jpeg"],
+    "description": "Latest iPhone Pro with advanced camera system, titanium design, and powerful performance. Available in multiple storage options.",
     "specs": {
       "Storage": "256GB",
-      "Display": "6.3 inch Super Retina XDR",
+      "Display": "6.3\" Super Retina XDR",
       "Chip": "A18 Pro",
-      "Camera": "48MP Main + 12MP Ultra Wide"
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "iphone-15",
+    "name": "iPhone 15",
+    "brand": "apple",
+    "category": "phones",
+    "price": 799,
+    "rating": 4.8,
+    "featured": true,
+    "image": "assets/images/our phones.jpeg",
+    "images": ["assets/images/our phones.jpeg"],
+    "description": "Stylish iPhone 15 with dual-camera system, USB-C, and all-day battery. Available in beautiful colors including pink and green.",
+    "specs": {
+      "Storage": "128GB",
+      "Display": "6.1\" Super Retina",
+      "Chip": "A16 Bionic",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "iphone-14-pro",
+    "name": "iPhone 14 Pro",
+    "brand": "apple",
+    "category": "phones",
+    "price": 749,
+    "rating": 4.7,
+    "featured": true,
+    "image": "assets/images/every iphone type.jpeg",
+    "images": ["assets/images/every iphone type.jpeg"],
+    "description": "Pro-level iPhone with Dynamic Island, 48MP camera, and always-on display. A customer favorite.",
+    "specs": {
+      "Storage": "256GB",
+      "Display": "6.1\" ProMotion",
+      "Chip": "A16 Bionic",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "iphone-13",
+    "name": "iPhone 13",
+    "brand": "apple",
+    "category": "phones",
+    "price": 599,
+    "rating": 4.6,
+    "featured": false,
+    "image": "assets/images/pro.jpeg",
+    "images": ["assets/images/pro.jpeg"],
+    "description": "Reliable iPhone 13 with great battery life, dual cameras, and smooth performance at an affordable price.",
+    "specs": {
+      "Storage": "128GB",
+      "Display": "6.1\" Super Retina",
+      "Chip": "A15 Bionic",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "iphone-camera-edition",
+    "name": "iPhone Pro Camera Edition",
+    "brand": "apple",
+    "category": "phones",
+    "price": 899,
+    "rating": 4.8,
+    "featured": false,
+    "image": "assets/images/piphone cameras.jpeg",
+    "images": ["assets/images/piphone cameras.jpeg"],
+    "description": "iPhone Pro models with industry-leading camera systems — perfect for photography and video creators.",
+    "specs": {
+      "Storage": "256GB",
+      "Camera": "Pro camera system",
+      "Video": "4K ProRes",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s26-ultra",
+    "name": "Samsung Galaxy S26 Ultra",
+    "brand": "samsung",
+    "category": "phones",
+    "price": 1099,
+    "rating": 4.9,
+    "featured": true,
+    "image": "assets/images/packaging.jpeg",
+    "images": ["assets/images/packaging.jpeg"],
+    "description": "Samsung's ultimate flagship with S Pen support, stunning display, and pro-grade cameras. Factory sealed in box.",
+    "specs": {
+      "Storage": "256GB",
+      "Display": "6.8\" Dynamic AMOLED",
+      "S Pen": "Included",
+      "Condition": "Brand new, sealed"
     }
   },
   {
     "id": "samsung-galaxy-s25",
     "name": "Samsung Galaxy S25",
+    "brand": "samsung",
     "category": "phones",
     "price": 899,
-    "rating": 4.7,
-    "featured": true,
-    "image": "https://placehold.co/600x450/1e293b/ffffff?text=Galaxy+S25",
-    "images": ["https://placehold.co/600x450/1e293b/ffffff?text=Galaxy+S25"],
-    "description": "Flagship Android phone with vibrant AMOLED display, powerful Snapdragon processor, and all-day battery life.",
-    "specs": {
-      "Storage": "128GB",
-      "Display": "6.2 inch Dynamic AMOLED",
-      "Chip": "Snapdragon 8 Gen 4",
-      "Camera": "50MP Triple Camera"
-    }
-  },
-  {
-    "id": "google-pixel-9",
-    "name": "Google Pixel 9",
-    "category": "phones",
-    "price": 799,
-    "rating": 4.6,
-    "featured": false,
-    "image": "https://placehold.co/600x450/4285f4/ffffff?text=Pixel+9",
-    "images": ["https://placehold.co/600x450/4285f4/ffffff?text=Pixel+9"],
-    "description": "Pure Android experience with Google's best AI features, exceptional computational photography, and 7 years of updates.",
-    "specs": {
-      "Storage": "128GB",
-      "Display": "6.3 inch OLED",
-      "Chip": "Google Tensor G4",
-      "Camera": "50MP Dual Camera"
-    }
-  },
-  {
-    "id": "macbook-air-m4",
-    "name": "MacBook Air M4",
-    "category": "laptops",
-    "price": 1199,
-    "rating": 4.9,
-    "featured": true,
-    "image": "https://placehold.co/600x450/64748b/ffffff?text=MacBook+Air",
-    "images": ["https://placehold.co/600x450/64748b/ffffff?text=MacBook+Air"],
-    "description": "Incredibly thin and light laptop powered by the M4 chip. Perfect for work, creativity, and everyday computing.",
-    "specs": {
-      "Storage": "512GB SSD",
-      "Display": "13.6 inch Liquid Retina",
-      "Chip": "Apple M4",
-      "RAM": "16GB Unified Memory"
-    }
-  },
-  {
-    "id": "dell-xps-15",
-    "name": "Dell XPS 15",
-    "category": "laptops",
-    "price": 1499,
-    "rating": 4.5,
-    "featured": false,
-    "image": "https://placehold.co/600x450/007db8/ffffff?text=Dell+XPS+15",
-    "images": ["https://placehold.co/600x450/007db8/ffffff?text=Dell+XPS+15"],
-    "description": "Premium Windows laptop with stunning InfinityEdge display, powerful Intel Core Ultra processor, and sleek design.",
-    "specs": {
-      "Storage": "1TB SSD",
-      "Display": "15.6 inch 3.5K OLED",
-      "Chip": "Intel Core Ultra 7",
-      "RAM": "32GB DDR5"
-    }
-  },
-  {
-    "id": "lenovo-thinkpad-x1",
-    "name": "Lenovo ThinkPad X1 Carbon",
-    "category": "laptops",
-    "price": 1349,
-    "rating": 4.6,
-    "featured": true,
-    "image": "https://placehold.co/600x450/e2231a/ffffff?text=ThinkPad+X1",
-    "images": ["https://placehold.co/600x450/e2231a/ffffff?text=ThinkPad+X1"],
-    "description": "Business-class ultrabook known for durability, excellent keyboard, and enterprise-grade security features.",
-    "specs": {
-      "Storage": "512GB SSD",
-      "Display": "14 inch 2.8K OLED",
-      "Chip": "Intel Core Ultra 5",
-      "RAM": "16GB LPDDR5"
-    }
-  },
-  {
-    "id": "ipad-pro-m4",
-    "name": "iPad Pro M4",
-    "category": "tablets",
-    "price": 1099,
     "rating": 4.8,
     "featured": true,
-    "image": "https://placehold.co/600x450/6366f1/ffffff?text=iPad+Pro",
-    "images": ["https://placehold.co/600x450/6366f1/ffffff?text=iPad+Pro"],
-    "description": "The ultimate iPad with M4 chip, ultra-thin design, and a gorgeous Liquid Retina XDR display.",
+    "image": "assets/images/cool phones.jpeg",
+    "images": ["assets/images/cool phones.jpeg"],
+    "description": "Powerful Galaxy S25 with vibrant AMOLED display, fast charging, and Samsung's latest AI features.",
     "specs": {
       "Storage": "256GB",
-      "Display": "11 inch Liquid Retina XDR",
-      "Chip": "Apple M4",
-      "Connectivity": "Wi-Fi 6E"
+      "Display": "6.2\" Dynamic AMOLED",
+      "Chip": "Snapdragon 8 Gen 4",
+      "Condition": "Brand new, sealed"
     }
   },
   {
-    "id": "samsung-tab-s10",
-    "name": "Samsung Galaxy Tab S10",
-    "category": "tablets",
-    "price": 849,
+    "id": "samsung-galaxy-a55",
+    "name": "Samsung Galaxy A55",
+    "brand": "samsung",
+    "category": "phones",
+    "price": 449,
     "rating": 4.5,
     "featured": false,
-    "image": "https://placehold.co/600x450/1428a0/ffffff?text=Galaxy+Tab+S10",
-    "images": ["https://placehold.co/600x450/1428a0/ffffff?text=Galaxy+Tab+S10"],
-    "description": "Premium Android tablet with S Pen included, stunning display, and DeX mode for desktop-like productivity.",
+    "image": "assets/images/phones.jpeg",
+    "images": ["assets/images/phones.jpeg"],
+    "description": "Great-value Samsung phone with solid cameras, long battery life, and a premium-feel design.",
+    "specs": {
+      "Storage": "128GB",
+      "Display": "6.6\" Super AMOLED",
+      "Battery": "5000mAh",
+      "Condition": "Brand new, sealed"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s24",
+    "name": "Samsung Galaxy S24",
+    "brand": "samsung",
+    "category": "phones",
+    "price": 799,
+    "rating": 4.7,
+    "featured": false,
+    "image": "assets/images/cool.jpeg",
+    "images": ["assets/images/cool.jpeg"],
+    "description": "Compact Galaxy flagship with excellent display, Galaxy AI, and reliable all-day performance.",
     "specs": {
       "Storage": "256GB",
-      "Display": "12.4 inch AMOLED",
+      "Display": "6.2\" Dynamic AMOLED",
       "Chip": "Snapdragon 8 Gen 3",
-      "S Pen": "Included"
+      "Condition": "Brand new, sealed"
     }
   },
   {
-    "id": "apple-watch-ultra-2",
-    "name": "Apple Watch Ultra 2",
-    "category": "wearables",
-    "price": 799,
+    "id": "type-c-lightning-cable",
+    "name": "Type-C to Lightning Cable (20W)",
+    "brand": "accessory",
+    "category": "accessories",
+    "price": 15,
+    "rating": 4.6,
+    "featured": true,
+    "image": "assets/images/store.jpeg",
+    "images": ["assets/images/store.jpeg"],
+    "description": "Fast-charging USB-C to Lightning cable. 20W PD support, 1 meter length. Compatible with all iOS devices.",
+    "specs": {
+      "Power": "20W PD Fast Charge",
+      "Length": "1 meter",
+      "Connector": "USB-C to Lightning",
+      "Compatibility": "All iPhones & iPads"
+    }
+  },
+  {
+    "id": "camera-lens-protector",
+    "name": "iPhone Camera Lens Protector",
+    "brand": "accessory",
+    "category": "accessories",
+    "price": 12,
+    "rating": 4.5,
+    "featured": true,
+    "image": "assets/images/our phone seals.jpeg",
+    "images": ["assets/images/our phone seals.jpeg"],
+    "description": "Premium lens protectors for iPhone 13 & 14 series. Keeps your camera glass scratch-free.",
+    "specs": {
+      "Material": "Tempered glass",
+      "Fit": "iPhone 13 / 14 series",
+      "Install": "Easy snap-on",
+      "Pack": "Multi-lens set"
+    }
+  },
+  {
+    "id": "phone-case-bundle",
+    "name": "Premium Phone Case Bundle",
+    "brand": "accessory",
+    "category": "accessories",
+    "price": 25,
     "rating": 4.7,
     "featured": true,
-    "image": "https://placehold.co/600x450/f97316/ffffff?text=Watch+Ultra+2",
-    "images": ["https://placehold.co/600x450/f97316/ffffff?text=Watch+Ultra+2"],
-    "description": "The most rugged and capable Apple Watch. Built for adventure with precision GPS and 36-hour battery life.",
+    "image": "assets/images/device packing.jpeg",
+    "images": ["assets/images/device packing.jpeg"],
+    "description": "Protective cases and packaging-ready bundles for iPhone and Samsung devices.",
     "specs": {
-      "Display": "49mm Titanium Case",
-      "Battery": "Up to 36 hours",
-      "Water Resistance": "100m",
-      "GPS": "Precision Dual-frequency"
+      "Includes": "Case + screen guard",
+      "Protection": "Shock absorbent",
+      "Colors": "Multiple options",
+      "Fit": "iPhone & Samsung"
     }
   },
   {
-    "id": "galaxy-watch-7",
-    "name": "Samsung Galaxy Watch 7",
-    "category": "wearables",
-    "price": 349,
-    "rating": 4.4,
-    "featured": false,
-    "image": "https://placehold.co/600x450/0ea5e9/ffffff?text=Galaxy+Watch+7",
-    "images": ["https://placehold.co/600x450/0ea5e9/ffffff?text=Galaxy+Watch+7"],
-    "description": "Smart watch with advanced health tracking, sleep coaching, and seamless Galaxy ecosystem integration.",
-    "specs": {
-      "Display": "44mm AMOLED",
-      "Battery": "Up to 40 hours",
-      "Health": "Heart rate, SpO2, Sleep",
-      "Compatibility": "Android & iOS"
-    }
-  },
-  {
-    "id": "airpods-pro-2",
-    "name": "AirPods Pro 2",
+    "id": "fast-charger-kit",
+    "name": "Fast Charger Kit",
+    "brand": "accessory",
     "category": "accessories",
-    "price": 249,
+    "price": 35,
     "rating": 4.8,
-    "featured": true,
-    "image": "https://placehold.co/600x450/a3a3a3/ffffff?text=AirPods+Pro",
-    "images": ["https://placehold.co/600x450/a3a3a3/ffffff?text=AirPods+Pro"],
-    "description": "Premium wireless earbuds with active noise cancellation, adaptive audio, and USB-C charging case.",
-    "specs": {
-      "Driver": "Custom high-excursion",
-      "ANC": "Active Noise Cancellation",
-      "Battery": "Up to 6 hours",
-      "Charging": "USB-C / MagSafe"
-    }
-  },
-  {
-    "id": "sony-wh1000xm5",
-    "name": "Sony WH-1000XM5",
-    "category": "accessories",
-    "price": 349,
-    "rating": 4.9,
     "featured": false,
-    "image": "https://placehold.co/600x450/171717/ffffff?text=Sony+XM5",
-    "images": ["https://placehold.co/600x450/171717/ffffff?text=Sony+XM5"],
-    "description": "Industry-leading noise canceling headphones with exceptional sound quality and all-day comfort.",
+    "image": "assets/images/WhatsApp Image 2026-06-07 at 13.18.53.jpeg",
+    "images": ["assets/images/WhatsApp Image 2026-06-07 at 13.18.53.jpeg"],
+    "description": "Complete fast charging kit with adapter and cable for iPhone and Samsung phones.",
     "specs": {
-      "Driver": "30mm",
-      "ANC": "Industry-leading",
-      "Battery": "Up to 30 hours",
-      "Weight": "250g"
+      "Output": "20W–25W",
+      "Cable": "USB-C included",
+      "Safety": "Overcharge protection",
+      "Warranty": "Store guaranteed"
     }
   },
   {
-    "id": "anker-powerbank",
-    "name": "Anker PowerCore 26800",
+    "id": "earbuds-pro",
+    "name": "Wireless Earbuds Pro",
+    "brand": "accessory",
     "category": "accessories",
-    "price": 65,
-    "rating": 4.5,
-    "featured": false,
-    "image": "https://placehold.co/600x450/00b894/ffffff?text=Anker+PowerBank",
-    "images": ["https://placehold.co/600x450/00b894/ffffff?text=Anker+PowerBank"],
-    "description": "High-capacity portable charger with fast charging support for phones, tablets, and other USB devices.",
-    "specs": {
-      "Capacity": "26800mAh",
-      "Ports": "3 USB-A",
-      "Input": "Micro USB / USB-C",
-      "Weight": "490g"
-    }
-  },
-  {
-    "id": "logitech-mx-master-4",
-    "name": "Logitech MX Master 4",
-    "category": "accessories",
-    "price": 99,
+    "price": 89,
     "rating": 4.7,
     "featured": false,
-    "image": "https://placehold.co/600x450/7c3aed/ffffff?text=MX+Master+4",
-    "images": ["https://placehold.co/600x450/7c3aed/ffffff?text=MX+Master+4"],
-    "description": "Advanced wireless mouse designed for productivity with ergonomic shape, MagSpeed scroll wheel, and multi-device support.",
+    "image": "assets/images/WhatsApp Image 2026-06-07 at 13.18.55.jpeg",
+    "images": ["assets/images/WhatsApp Image 2026-06-07 at 13.18.55.jpeg"],
+    "description": "Premium wireless earbuds with noise cancellation and long battery life. Great companion for your phone.",
     "specs": {
-      "Sensor": "8000 DPI",
-      "Battery": "Up to 70 days",
-      "Connectivity": "Bluetooth / USB receiver",
-      "Buttons": "7 programmable"
+      "ANC": "Active noise cancelling",
+      "Battery": "Up to 6 hours",
+      "Connectivity": "Bluetooth 5.3",
+      "Case": "Charging case included"
     }
   },
   {
-    "id": "oneplus-13",
-    "name": "OnePlus 13",
-    "category": "phones",
-    "price": 699,
+    "id": "screen-protector-pack",
+    "name": "Tempered Glass Screen Protector",
+    "brand": "accessory",
+    "category": "accessories",
+    "price": 10,
     "rating": 4.5,
     "featured": false,
-    "image": "https://placehold.co/600x450/eb0028/ffffff?text=OnePlus+13",
-    "images": ["https://placehold.co/600x450/eb0028/ffffff?text=OnePlus+13"],
-    "description": "Flagship killer with blazing fast charging, smooth 120Hz display, and clean OxygenOS experience.",
+    "image": "assets/images/WhatsApp Image 2026-06-07 at 13.19.00.jpeg",
+    "images": ["assets/images/WhatsApp Image 2026-06-07 at 13.19.00.jpeg"],
+    "description": "HD clear tempered glass screen protectors. Bubble-free install for iPhone and Samsung models.",
     "specs": {
-      "Storage": "256GB",
-      "Display": "6.7 inch AMOLED 120Hz",
-      "Chip": "Snapdragon 8 Gen 4",
-      "Charging": "100W SuperVOOC"
+      "Hardness": "9H tempered glass",
+      "Clarity": "HD transparent",
+      "Fit": "Multiple models",
+      "Pack": "Single or multi-pack"
+    }
+  },
+  {
+    "id": "power-bank",
+    "name": "Portable Power Bank",
+    "brand": "accessory",
+    "category": "accessories",
+    "price": 45,
+    "rating": 4.6,
+    "featured": false,
+    "image": "assets/images/WhatsApp Image 2026-06-07 at 13.19.02.jpeg",
+    "images": ["assets/images/WhatsApp Image 2026-06-07 at 13.19.02.jpeg"],
+    "description": "High-capacity power bank for charging your iPhone or Samsung on the go.",
+    "specs": {
+      "Capacity": "10000mAh",
+      "Ports": "USB-C + USB-A",
+      "Fast Charge": "Supported",
+      "LED": "Battery indicator"
     }
   }
 ]

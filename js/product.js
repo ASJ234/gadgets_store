@@ -23,7 +23,12 @@ document.addEventListener('DOMContentLoaded', async () => {
       return;
     }
 
-    document.title = product.name + ' — KingHaven Store';
+    document.title = product.name + " — King's Haven Store";
+
+    const brandLine =
+      product.brand && product.brand !== 'accessory'
+        ? '<p class="product-detail-brand">' + escapeHtml(getBrandLabel(product.brand)) + '</p>'
+        : '';
 
     const specsRows = Object.entries(product.specs)
       .map(([key, value]) => '<tr><th>' + escapeHtml(key) + '</th><td>' + escapeHtml(value) + '</td></tr>')
@@ -33,11 +38,12 @@ document.addEventListener('DOMContentLoaded', async () => {
       '<div class="product-detail">' +
       '<div class="product-detail-gallery">' +
       '<div class="product-detail-image">' +
-      '<img src="' + product.image + '" alt="' + escapeHtml(product.name) + '">' +
+      '<img src="' + assetUrl(product.image) + '" alt="' + escapeHtml(product.name) + '">' +
       '</div>' +
       '</div>' +
       '<div class="product-detail-info">' +
       '<p class="product-detail-category">' + escapeHtml(getCategoryLabel(product.category)) + '</p>' +
+      brandLine +
       '<h1 class="product-detail-name">' + escapeHtml(product.name) + '</h1>' +
       '<div class="product-detail-rating">' + renderStars(product.rating) + ' <span>(' + product.rating + ')</span></div>' +
       '<p class="product-detail-price">' + formatPrice(product.price) + '</p>' +

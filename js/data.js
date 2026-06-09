@@ -28,32 +28,49 @@ async function getByCategory(category) {
   return products.filter((p) => p.category === category);
 }
 
-async function getCategories() {
+async function getByBrand(brand) {
   const products = await loadProducts();
-  const categories = [...new Set(products.map((p) => p.category))];
-  return categories.sort();
+  if (!brand || brand === 'all') return products;
+  return products.filter((p) => p.brand === brand);
+}
+
+async function getCategories() {
+  return ['phones', 'accessories'];
 }
 
 const CATEGORY_LABELS = {
   phones: 'Phones',
-  laptops: 'Laptops',
-  tablets: 'Tablets',
-  wearables: 'Wearables',
   accessories: 'Accessories',
 };
 
-const CATEGORY_ICONS = {
-  phones: '📱',
-  laptops: '💻',
-  tablets: '📟',
-  wearables: '⌚',
-  accessories: '🎧',
+const CATEGORY_DESCRIPTIONS = {
+  phones: 'iPhone & Samsung — brand new, sealed',
+  accessories: 'Cables, cases, chargers & more',
+};
+
+const CATEGORY_IMAGES = {
+  phones: 'assets/images/cool phones.jpeg',
+  accessories: 'assets/images/store.jpeg',
+};
+
+const BRAND_LABELS = {
+  apple: 'iPhone',
+  samsung: 'Samsung',
+  accessory: 'Accessory',
 };
 
 function getCategoryLabel(category) {
   return CATEGORY_LABELS[category] || category;
 }
 
-function getCategoryIcon(category) {
-  return CATEGORY_ICONS[category] || '📦';
+function getCategoryDescription(category) {
+  return CATEGORY_DESCRIPTIONS[category] || '';
+}
+
+function getCategoryImage(category) {
+  return CATEGORY_IMAGES[category] || '';
+}
+
+function getBrandLabel(brand) {
+  return BRAND_LABELS[brand] || brand;
 }

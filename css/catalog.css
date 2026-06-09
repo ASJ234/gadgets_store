@@ -72,6 +72,14 @@
   color: white;
 }
 
+.filter-pills--brands {
+  margin-top: -0.75rem;
+}
+
+.filter-pill--brand.active {
+  background: var(--color-primary-dark);
+}
+
 .catalog-results-count {
   font-size: var(--text-sm);
   color: var(--color-text-muted);

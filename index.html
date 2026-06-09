@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="KingHaven Store — Your destination for the latest phones, laptops, tablets, wearables, and tech accessories.">
-  <title>KingHaven Store — Gadgets & Tech</title>
+  <meta name="description" content="King's Haven Store — Genuine iPhones, Samsung phones, and accessories at affordable prices.">
+  <title>King's Haven Store — iPhones, Samsung & Accessories</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/style.css">
@@ -14,7 +14,7 @@
   <div class="page-wrapper">
     <header class="site-header">
       <div class="container header-inner">
-        <a href="index.html" class="logo">Kings<span>Haven</span></a>
+        <a href="index.html" class="logo">King<span>'s Haven</span></a>
         <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
           <span class="nav-toggle-icon"></span>
         </button>
@@ -30,19 +30,21 @@
     </header>
 
     <section class="hero">
-      <div class="hero-decor" aria-hidden="true">
-        <span class="hero-phone hero-phone--left"></span>
-        <span class="hero-phone hero-phone--right"></span>
-      </div>
       <div class="container hero-inner">
         <div class="hero-content">
-          <span class="hero-badge">Curated for passionate gadget lovers</span>
-          <p class="hero-eyebrow">Your trusted tech destination</p>
-          <h1 class="hero-title">Discover the latest gadgets with confidence</h1>
-          <p class="hero-text">Browse phones, laptops, tablets, wearables, and accessories — curated for quality, performance, and style.</p>
+          <span class="hero-badge">Genuine phones &amp; accessories</span>
+          <h1 class="hero-title">iPhones &amp; Samsung phones you can trust</h1>
+          <p class="hero-text">Brand-new, sealed devices plus cables, cases, and chargers — all at King's Haven Store.</p>
           <div class="hero-actions">
-            <a href="catalog.html" class="btn btn-primary">Shop Catalog</a>
-            <a href="location.html" class="btn btn-outline">Visit Our Store</a>
+            <a href="catalog.html?category=phones" class="btn btn-primary">Shop Phones</a>
+            <a href="catalog.html?category=accessories" class="btn btn-outline">Shop Accessories</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/images/our%20phones.jpeg" alt="iPhone 15 models in pink and green" class="hero-image" width="600" height="450">
+          <div class="hero-visual-badge">
+            <img src="assets/images/king.jpeg" alt="" class="hero-store-logo" width="48" height="48">
+            <span>Sealed &amp; authentic</span>
           </div>
         </div>
       </div>
@@ -53,11 +55,11 @@
         <div class="container">
           <div class="section-header">
             <div class="section-header-text">
-              <h2 class="section-title">Shop by Category</h2>
-              <p class="section-desc">Jump straight into the gadgets you care about</p>
+              <h2 class="section-title">What we sell</h2>
+              <p class="section-desc">Two categories — phones and accessories</p>
             </div>
           </div>
-          <div id="category-tiles"><p class="loading">Loading categories…</p></div>
+          <div id="category-tiles"><p class="loading">Loading…</p></div>
         </div>
       </section>
 
@@ -65,23 +67,85 @@
         <div class="container">
           <div class="section-header">
             <div class="section-header-text">
-              <h2 class="section-title">Featured Products</h2>
-              <p class="section-desc">Hand-picked favorites from our catalog</p>
+              <h2 class="section-title">iPhones</h2>
+              <p class="section-desc">Latest and previous-generation Apple phones in stock</p>
             </div>
-            <a href="catalog.html" class="section-link">View all products</a>
+            <a href="catalog.html?category=phones&amp;brand=apple" class="section-link">All iPhones</a>
           </div>
-          <div id="featured-products"><p class="loading">Loading products…</p></div>
+          <div id="iphone-products"><p class="loading">Loading…</p></div>
+        </div>
+      </section>
+
+      <section class="section home-section">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-header-text">
+              <h2 class="section-title">Samsung phones</h2>
+              <p class="section-desc">Galaxy flagships and great-value models</p>
+            </div>
+            <a href="catalog.html?category=phones&amp;brand=samsung" class="section-link">All Samsung</a>
+          </div>
+          <div id="samsung-products"><p class="loading">Loading…</p></div>
+        </div>
+      </section>
+
+      <section class="section section-alt home-section">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-header-text">
+              <h2 class="section-title">Accessories</h2>
+              <p class="section-desc">Cables, protectors, cases, and more</p>
+            </div>
+            <a href="catalog.html?category=accessories" class="section-link">All accessories</a>
+          </div>
+          <div id="accessory-products"><p class="loading">Loading…</p></div>
+        </div>
+      </section>
+
+      <section class="section home-section trust-section">
+        <div class="container">
+          <div class="section-header section-header--center">
+            <div class="section-header-text">
+              <h2 class="section-title">Why shop at King's Haven</h2>
+              <p class="section-desc">Real products, real receipts, real stock</p>
+            </div>
+          </div>
+          <div class="trust-grid">
+            <article class="trust-card">
+              <img src="assets/images/authentic%20receipt.jpeg" alt="Authentic purchase receipt" loading="lazy">
+              <h3>Authentic receipt</h3>
+              <p>Every purchase comes with proper documentation.</p>
+            </article>
+            <article class="trust-card">
+              <img src="assets/images/our%20phone%20seals.jpeg" alt="Factory-sealed phone packaging" loading="lazy">
+              <h3>Factory sealed</h3>
+              <p>Phones arrive sealed with tear-off security labels.</p>
+            </article>
+            <article class="trust-card">
+              <img src="assets/images/much%20stock%20available.jpeg" alt="Large phone stock on display" loading="lazy">
+              <h3>Plenty in stock</h3>
+              <p>Wide selection of iPhones and Samsung models ready to go.</p>
+            </article>
+            <article class="trust-card">
+              <img src="assets/images/store.jpeg" alt="Inside King's Haven Store" loading="lazy">
+              <h3>Visit our store</h3>
+              <p>See products in person and get expert advice.</p>
+            </article>
+          </div>
         </div>
       </section>
 
       <section class="section home-section">
         <div class="container">
           <div class="cta-banner">
-            <div class="cta-banner-text">
-              <h2 class="cta-banner-title">Visit KingHaven in person</h2>
-              <p class="cta-banner-desc">Try gadgets hands-on and get expert advice from our team.</p>
+            <div class="cta-banner-media">
+              <img src="assets/images/packaging.jpeg" alt="Samsung Galaxy packaging at King's Haven" loading="lazy">
             </div>
-            <a href="location.html" class="btn btn-primary">Get Directions</a>
+            <div class="cta-banner-text">
+              <h2 class="cta-banner-title">Visit King's Haven in person</h2>
+              <p class="cta-banner-desc">Try phones hands-on, pick up accessories, and walk out with your next device today.</p>
+              <a href="location.html" class="btn btn-primary">Get Directions</a>
+            </div>
           </div>
         </div>
       </section>
@@ -89,13 +153,13 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p class="footer-brand">KingHaven Store</p>
+        <p class="footer-brand">King's Haven Store</p>
         <nav class="footer-links">
           <a href="catalog.html">Catalog</a>
           <a href="location.html">Location</a>
           <a href="about.html">About</a>
         </nav>
-        <p class="footer-copy">&copy; 2026 KingHaven Store. All rights reserved.</p>
+        <p class="footer-copy">&copy; 2026 King's Haven Store. All rights reserved.</p>
       </div>
     </footer>
   </div>
