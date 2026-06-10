@@ -1,12 +1,12 @@
 {
   "name": "King's Haven Store",
-  "address": "Mabirizi Complex, Kampala Road, Kampala CBD",
+  "address": "Mabirizi Complex, Kampala Road, Kampala",
   "phone": "+256 784 884 042",
   "email": "pleasurek742@gmail.com",
   "tagline": "Innovation that excites — genuine phones and gadgets at affordable prices",
   "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Mabirizi+Complex+Kampala",
   "hours": {
-    "Mon-Sat": "9:00 AM – 8:00 PM",
+    "Mon-Sat": "8:00 AM – 8:00 PM",
     "Sun": "Closed"
   },
   "mapEmbedUrl": "https://www.google.com/maps?q=Mabirizi+Complex+Kampala&output=embed"

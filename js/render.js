@@ -45,8 +45,7 @@ function renderProductCard(product) {
     '<div class="product-card-body">' +
     '<span class="product-card-category">' + escapeHtml(getCategoryLabel(product.category)) + '</span>' +
     '<h3 class="product-card-name">' + escapeHtml(product.name) + '</h3>' +
-    '<div class="product-card-rating">' + renderStars(product.rating) + ' <span>(' + product.rating + ')</span></div>' +
-    '<p class="product-card-price">' + formatPrice(product.price) + '</p>' +
+    '<div class="product-card-rating">' + renderStars(product.rating) + ' <span>(' + product.rating + ')</span></div>' + '</p>' +
     '</div>';
   return card;
 }

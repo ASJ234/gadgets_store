@@ -119,10 +119,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const sort = sortSelect?.value || 'name-asc';
     filtered.sort((a, b) => {
       switch (sort) {
-        case 'price-asc':
-          return a.price - b.price;
-        case 'price-desc':
-          return b.price - a.price;
         case 'name-desc':
           return b.name.localeCompare(a.name);
         case 'rating-desc':

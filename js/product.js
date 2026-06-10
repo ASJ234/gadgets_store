@@ -45,8 +45,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       '<p class="product-detail-category">' + escapeHtml(getCategoryLabel(product.category)) + '</p>' +
       brandLine +
       '<h1 class="product-detail-name">' + escapeHtml(product.name) + '</h1>' +
-      '<div class="product-detail-rating">' + renderStars(product.rating) + ' <span>(' + product.rating + ')</span></div>' +
-      '<p class="product-detail-price">' + formatPrice(product.price) + '</p>' +
+      '<div class="product-detail-rating">' + renderStars(product.rating) + ' <span>(' + product.rating + ')</span></div>' + '</p>' +
       '<p class="product-detail-description">' + escapeHtml(product.description) + '</p>' +
       '<table class="specs-table"><tbody>' + specsRows + '</tbody></table>' +
       '<a href="catalog.html?category=' + encodeURIComponent(product.category) + '" class="btn btn-outline">More ' + escapeHtml(getCategoryLabel(product.category)) + '</a>' +
