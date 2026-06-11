@@ -7,7 +7,9 @@
     "rating": 4.9,
     "featured": true,
     "image": "assets/images/iphone 17 pro maxs.jpeg",
-    "images": ["assets/images/iphone 17 pro maxs.jpeg"],
+    "images": [
+      "assets/images/iphone 17 pro maxs.jpeg"
+    ],
     "description": "The ultimate iPhone with the largest Pro display, advanced camera system, and top-tier performance.",
     "specs": {
       "Storage": "256GB",
@@ -23,7 +25,9 @@
     "rating": 4.9,
     "featured": true,
     "image": "assets/images/iphone 17 pro .1.jpeg",
-    "images": ["assets/images/iphone 17 pro .1.jpeg"],
+    "images": [
+      "assets/images/iphone 17 pro .1.jpeg"
+    ],
     "description": "Pro-level iPhone with titanium design, advanced cameras, and the latest Apple chip.",
     "specs": {
       "Storage": "256GB",
@@ -39,7 +43,9 @@
     "rating": 4.8,
     "featured": true,
     "image": "assets/images/iphone 16 pro.1.jpeg",
-    "images": ["assets/images/iphone 16 pro.1.jpeg"],
+    "images": [
+      "assets/images/iphone 16 pro.1.jpeg"
+    ],
     "description": "Powerful iPhone Pro with advanced camera system and all-day battery life.",
     "specs": {
       "Storage": "256GB",
@@ -53,10 +59,13 @@
     "name": "iPhone 15",
     "brand": "apple",
     "category": "phones",
-      "rating": 4.8,
+    "rating": 4.8,
     "featured": true,
     "image": "assets/images/iphone15.jpeg",
-    "images": ["assets/images/iphone15.jpeg", "assets/images/iphone 15.1.jpeg"],
+    "images": [
+      "assets/images/iphone15.jpeg",
+      "assets/images/iphone 15.1.jpeg"
+    ],
     "description": "Stylish iPhone 15 with dual-camera system, USB-C, and all-day battery. Multiple colours available.",
     "specs": {
       "Storage": "128GB",
@@ -73,7 +82,9 @@
     "rating": 4.7,
     "featured": false,
     "image": "assets/images/iphone 14 pro max.jpeg",
-    "images": ["assets/images/iphone 14 pro max.jpeg"],
+    "images": [
+      "assets/images/iphone 14 pro max.jpeg"
+    ],
     "description": "Large-screen iPhone Pro Max with Dynamic Island, 48MP camera, and always-on display.",
     "specs": {
       "Storage": "256GB",
@@ -90,7 +101,10 @@
     "rating": 4.6,
     "featured": false,
     "image": "assets/images/iphone 14.3.jpeg",
-    "images": ["assets/images/iphone 14.3.jpeg", "assets/images/iphone 14s.1.jpeg"],
+    "images": [
+      "assets/images/iphone 14.3.jpeg",
+      "assets/images/iphone 14s.1.jpeg"
+    ],
     "description": "Reliable iPhone 14 with excellent cameras, crash detection, and great battery life.",
     "specs": {
       "Storage": "128GB",
@@ -107,7 +121,12 @@
     "rating": 4.6,
     "featured": false,
     "image": "assets/images/iphone 13.jpeg",
-    "images": ["assets/images/iphone 13.jpeg", "assets/images/iphone 13.2.jpeg", "assets/images/iphone 13s.3.jpeg", "assets/images/iphone 13 series.jpeg"],
+    "images": [
+      "assets/images/iphone 13.jpeg",
+      "assets/images/iphone 13.2.jpeg",
+      "assets/images/iphone 13s.3.jpeg",
+      "assets/images/iphone 13 series.jpeg"
+    ],
     "description": "Popular iPhone 13 with great battery life, dual cameras, and smooth performance at an affordable price.",
     "specs": {
       "Storage": "128GB",
@@ -124,7 +143,9 @@
     "rating": 4.5,
     "featured": false,
     "image": "assets/images/iphone 12.1.jpeg",
-    "images": ["assets/images/iphone 12.1.jpeg"],
+    "images": [
+      "assets/images/iphone 12.1.jpeg"
+    ],
     "description": "Classic iPhone 12 with 5G, OLED display, and solid everyday performance.",
     "specs": {
       "Storage": "128GB",
@@ -141,7 +162,10 @@
     "rating": 4.9,
     "featured": true,
     "image": "assets/images/Samsung s26Ultra.jpeg",
-    "images": ["assets/images/Samsung s26Ultra.jpeg", "assets/images/Samsung s series.jpeg"],
+    "images": [
+      "assets/images/Samsung s26Ultra.jpeg",
+      "assets/images/Samsung s series.jpeg"
+    ],
     "description": "Samsung's ultimate flagship with S Pen support, stunning display, and pro-grade cameras. Factory sealed in box.",
     "specs": {
       "Storage": "256GB",
@@ -158,7 +182,9 @@
     "rating": 4.8,
     "featured": true,
     "image": "assets/images/Samsung s25.jpeg",
-    "images": ["assets/images/Samsung s25.jpeg"],
+    "images": [
+      "assets/images/Samsung s25.jpeg"
+    ],
     "description": "Latest Galaxy S25 with vibrant AMOLED display, fast charging, and Samsung AI features.",
     "specs": {
       "Storage": "256GB",
@@ -175,7 +201,9 @@
     "rating": 4.8,
     "featured": true,
     "image": "assets/images/Samsung S24 Ultra.webp",
-    "images": ["assets/images/Samsung S24 Ultra.webp"],
+    "images": [
+      "assets/images/Samsung S24 Ultra.webp"
+    ],
     "description": "Premium Galaxy Ultra with S Pen, 200MP camera, and titanium frame.",
     "specs": {
       "Storage": "256GB",
@@ -192,7 +220,9 @@
     "rating": 4.6,
     "featured": false,
     "image": "assets/images/samsung 22 ultra.jpeg",
-    "images": ["assets/images/samsung 22 ultra.jpeg"],
+    "images": [
+      "assets/images/samsung 22 ultra.jpeg"
+    ],
     "description": "Powerful S22 Ultra with built-in S Pen, great cameras, and large AMOLED display.",
     "specs": {
       "Storage": "256GB",
@@ -209,7 +239,9 @@
     "rating": 4.5,
     "featured": false,
     "image": "assets/images/Samsung 21+.webp",
-    "images": ["assets/images/Samsung 21+.webp"],
+    "images": [
+      "assets/images/Samsung 21+.webp"
+    ],
     "description": "Large-screen Galaxy S21+ with excellent display and reliable everyday performance.",
     "specs": {
       "Storage": "128GB",
@@ -226,7 +258,9 @@
     "rating": 4.5,
     "featured": false,
     "image": "assets/images/Samsung s21.webp",
-    "images": ["assets/images/Samsung s21.webp"],
+    "images": [
+      "assets/images/Samsung s21.webp"
+    ],
     "description": "Compact Galaxy S21 flagship with sharp display and solid camera performance.",
     "specs": {
       "Storage": "128GB",
@@ -242,7 +276,9 @@
     "rating": 4.4,
     "featured": false,
     "image": "assets/images/Samsung 20 Ultra.webp",
-    "images": ["assets/images/Samsung 20 Ultra.webp"],
+    "images": [
+      "assets/images/Samsung 20 Ultra.webp"
+    ],
     "description": "Classic S20 Ultra with 100x Space Zoom and a large 6.9-inch display.",
     "specs": {
       "Storage": "128GB",
@@ -259,7 +295,9 @@
     "rating": 4.4,
     "featured": false,
     "image": "assets/images/Samsung s20.webp",
-    "images": ["assets/images/Samsung s20.webp"],
+    "images": [
+      "assets/images/Samsung s20.webp"
+    ],
     "description": "Reliable Galaxy S20 with 5G, great screen, and dependable performance.",
     "specs": {
       "Storage": "128GB",
@@ -276,7 +314,9 @@
     "rating": 4.5,
     "featured": false,
     "image": "assets/images/samsung A53.webp",
-    "images": ["assets/images/samsung A53.webp"],
+    "images": [
+      "assets/images/samsung A53.webp"
+    ],
     "description": "Great-value Galaxy A53 with 5G, long battery life, and a smooth 120Hz display.",
     "specs": {
       "Storage": "128GB",
@@ -293,7 +333,9 @@
     "rating": 4.3,
     "featured": false,
     "image": "assets/images/Samsung A16.webp",
-    "images": ["assets/images/Samsung A16.webp"],
+    "images": [
+      "assets/images/Samsung A16.webp"
+    ],
     "description": "Affordable Galaxy A16 — perfect entry-level Samsung with essential features.",
     "specs": {
       "Storage": "128GB",
@@ -310,7 +352,9 @@
     "rating": 4.6,
     "featured": true,
     "image": "assets/images/Airpods.jpeg",
-    "images": ["assets/images/Airpods.jpeg"],
+    "images": [
+      "assets/images/Airpods.jpeg"
+    ],
     "description": "Wireless Apple AirPods with great sound quality and easy pairing with your iPhone.",
     "specs": {
       "Connectivity": "Bluetooth",
@@ -327,7 +371,10 @@
     "rating": 4.8,
     "featured": true,
     "image": "assets/images/Airpodspro.jpeg",
-    "images": ["assets/images/Airpodspro.jpeg", "assets/images/Airpods pro.1.jpeg"],
+    "images": [
+      "assets/images/Airpodspro.jpeg",
+      "assets/images/Airpods pro.1.jpeg"
+    ],
     "description": "Premium AirPods Pro with active noise cancellation and adaptive audio.",
     "specs": {
       "ANC": "Active Noise Cancellation",
@@ -338,13 +385,15 @@
   },
   {
     "id": "chargers-lens-protection",
-    "name": "Chargers & Lens Protection Kit",
+    "name": "Chargers",
     "brand": "accessory",
     "category": "accessories",
     "rating": 4.7,
     "featured": true,
     "image": "assets/images/chargers and lens protection.jpeg",
-    "images": ["assets/images/chargers and lens protection.jpeg"],
+    "images": [
+      "assets/images/chargers and lens protection.jpeg"
+    ],
     "description": "Fast chargers and camera lens protectors for iPhone. Keep your phone powered and protected.",
     "specs": {
       "Includes": "Charger + lens protectors",
@@ -355,13 +404,15 @@
   },
   {
     "id": "iphone-14-pro-chargers",
-    "name": "iPhone 14 Pro Chargers",
+    "name": "Faster chargers",
     "brand": "accessory",
     "category": "accessories",
     "rating": 4.6,
     "featured": false,
     "image": "assets/images/iphone 14pro chargers.jpeg",
-    "images": ["assets/images/iphone 14pro chargers.jpeg"],
+    "images": [
+      "assets/images/iphone 14pro chargers.jpeg"
+    ],
     "description": "Fast chargers designed for iPhone 14 Pro and compatible models.",
     "specs": {
       "Power": "20W PD",
@@ -378,7 +429,9 @@
     "rating": 4.7,
     "featured": false,
     "image": "assets/images/wirelesscharger.jpeg",
-    "images": ["assets/images/wirelesscharger.jpeg"],
+    "images": [
+      "assets/images/wirelesscharger.jpeg"
+    ],
     "description": "Convenient wireless charging pad for iPhone and Samsung phones.",
     "specs": {
       "Output": "15W wireless",
@@ -395,7 +448,9 @@
     "rating": 4.5,
     "featured": false,
     "image": "assets/images/device packing.jpeg",
-    "images": ["assets/images/device packing.jpeg"],
+    "images": [
+      "assets/images/device packing.jpeg"
+    ],
     "description": "Protective packaging and accessories bundle for safe device storage and transport.",
     "specs": {
       "Includes": "Protective packaging",
